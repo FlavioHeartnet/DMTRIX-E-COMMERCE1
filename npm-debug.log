@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'semantic-ui' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json cinema@1.0.0 No repository field.
+6 warn package.json cinema@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'semantic-ui', null ]
+9 verbose cache add name=undefined spec="semantic-ui" args=["semantic-ui",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'semantic-ui',
+10 verbose parsed url   path: 'semantic-ui',
+10 verbose parsed url   href: 'semantic-ui' }
+11 silly lockFile 4d0acb89-semantic-ui semantic-ui
+12 verbose lock semantic-ui C:\Users\joao.landino\AppData\Roaming\npm-cache\4d0acb89-semantic-ui.lock
+13 silly lockFile 4d0acb89-semantic-ui semantic-ui
+14 silly lockFile 4d0acb89-semantic-ui semantic-ui
+15 verbose addNamed [ 'semantic-ui', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile c4f177e9-semantic-ui semantic-ui@
+18 verbose lock semantic-ui@ C:\Users\joao.landino\AppData\Roaming\npm-cache\c4f177e9-semantic-ui.lock
+19 silly addNameRange { name: 'semantic-ui', range: '*', hasData: false }
+20 verbose request where is /semantic-ui
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 3b37668ee99c4c35
+23 verbose url raw /semantic-ui
+24 verbose url resolving [ 'https://registry.npmjs.org/', './semantic-ui' ]
+25 verbose url resolved https://registry.npmjs.org/semantic-ui
+26 verbose request where is https://registry.npmjs.org/semantic-ui
+27 info trying registry request attempt 1 at 17:41:29
+28 http GET https://registry.npmjs.org/semantic-ui
+29 info retry will retry, error on last attempt: Error: getaddrinfo EAGAIN
+30 info trying registry request attempt 2 at 17:41:51
+31 http GET https://registry.npmjs.org/semantic-ui
+32 info retry will retry, error on last attempt: Error: getaddrinfo EAGAIN
+33 info trying registry request attempt 3 at 17:43:03
+34 http GET https://registry.npmjs.org/semantic-ui
+35 silly lockFile c4f177e9-semantic-ui semantic-ui@
+36 silly lockFile c4f177e9-semantic-ui semantic-ui@
+37 error Error: getaddrinfo EAGAIN
+37 error     at errnoException (dns.js:37:11)
+37 error     at Object.onanswer [as oncomplete] (dns.js:124:16)
+38 error If you need help, you may report this *entire* log,
+38 error including the npm and node versions, at:
+38 error     <http://github.com/npm/npm/issues>
+39 error System Windows_NT 6.1.7601
+40 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "semantic-ui"
+41 error cwd C:\wamp\www\dmtrix
+42 error node -v v0.10.32
+43 error npm -v 1.4.28
+44 error syscall getaddrinfo
+45 error code EAGAIN
+46 error errno EAGAIN
+47 verbose exit [ 1, true ]

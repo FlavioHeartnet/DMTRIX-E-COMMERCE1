@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Highcharts Example</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript">
+
+$(function () {
+				valor = $("input[name='produto']").val();
+				valor1 = $("input[name='produto1']").val();
+	
+				pedido = $("input[name='pedido']").val();
+				pedido1 = $("input[name='pedido1']").val();
+
+	
+        $('#container').highcharts({
+            chart: {
+                type: 'bar'
+            },
+            title: {
+                text: 'Grafico de Produtos pedidos ?'
+            },
+            subtitle: {
+                text: 'Fonte: CPD - Centro de Pesquisas DMCard - nº003/catálogo 7789-789 - Ano de 2014'
+            },
+            xAxis: {
+                categories: ['Flavio'],
+                title: {
+                    text: null
+                }
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '% de votos',
+                    align: 'high'
+                },
+                labels: {
+                    overflow: 'justify'
+                }
+            },
+            tooltip: {
+                valueSuffix: '%'
+            },
+            plotOptions: {
+                bar: {
+                    dataLabels: {
+                        enabled: true
+                    }
+                }
+            },
+            legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'top',
+                x: -40,
+                y: 100,
+                floating: true,
+                borderWidth: 1,
+                backgroundColor: '#FFFFFF',
+                shadow: true
+            },
+            credits: {
+                enabled: false
+            },
+            series: [
+
+			{
+                name: "'"+valor+"'",
+                data: [parseInt(pedido)]
+            }, {
+                name: "'"+valor1+"'",
+                data: [parseInt(pedido1)]
+            }]
+        });
+    });
+    
+
+		</script>
+	</head>
+	<body>
+<script src="../../js/highcharts.js"></script>
+<script src="../../js/modules/exporting.js"></script>
+
+<input type="hidden" name="produto" value="pinpad">
+<input type="hidden" name="pedido" value="32">
+
+<input type="hidden" name="produto1" value="orelha de Mico">
+<input type="hidden" name="pedido1" value="15">
+
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+	</body>
+</html>

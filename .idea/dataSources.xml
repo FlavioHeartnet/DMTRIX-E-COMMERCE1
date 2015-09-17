@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1076215901">
+    <data-source source="LOCAL" name="ODBC - marketing" uuid="c3f333ad-c2d8-4f48-ba99-a271f005b7b4">
+      <driver-ref>odbc.sun</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>sun.jdbc.odbc.JdbcOdbcDriver</jdbc-driver>
+      <jdbc-url>jdbc:odbc:marketing</jdbc-url>
+      <default-dialect>SQL92</default-dialect>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="MySQL - marketing@localhost" uuid="416c7d6c-7ff0-41c5-8b01-da220652bdba">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/marketing</jdbc-url>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

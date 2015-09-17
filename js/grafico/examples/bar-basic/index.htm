@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Highcharts Example</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript">
+$(function () {
+        $('#container').highcharts({
+            chart: {
+                type: 'bar'
+            },
+            title: {
+                text: 'O que compram'
+            },
+            subtitle: {
+                text: 'Fonte: Rede Sua Loja - Ano de 2013'
+            },
+            xAxis: {
+                categories: ['FLV', 'FRIOS', 'BEBIDAS', 'MATINAIS', 'MERC DOCE', 'MERCEARIA', 'PADARIA', 'AÇOUGUE', 'HIGIENE E BELEZA', 'BAZAR', 'LIMPEZA', 'ROTISSERIE'],
+                title: {
+                    text: null
+                }
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '% de compra',
+                    align: 'high'
+                },
+                labels: {
+                    overflow: 'justify'
+                }
+            },
+            tooltip: {
+                valueSuffix: '%'
+            },
+            plotOptions: {
+                bar: {
+                    dataLabels: {
+                        enabled: true
+                    }
+                }
+            },
+            legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'top',
+                x: -40,
+                y: 100,
+                floating: true,
+                borderWidth: 1,
+                backgroundColor: '#FFFFFF',
+                shadow: true
+            },
+            credits: {
+                enabled: false
+            },
+            series: [{
+                name: 'Loja 01',
+                data: [30,22,33,44,55,66,55,22,11,10,8,3]
+            }, {
+                name: 'Loja 02',
+                data: [20,15,12,45,88,99,10,22,33,40,77,12]
+            }, {
+                name: 'Loja 03',
+                data: [12,15,18,99,33,44,77,88,99,10,22,12]
+            }]
+        });
+    });
+    
+
+		</script>
+	</head>
+	<body>
+<script src="../../js/highcharts.js"></script>
+<script src="../../js/modules/exporting.js"></script>
+
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+	</body>
+</html>

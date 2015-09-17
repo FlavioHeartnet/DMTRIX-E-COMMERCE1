@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="ODBC - marketing" uuid="c3f333ad-c2d8-4f48-ba99-a271f005b7b4">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="MySQL - marketing@localhost" uuid="416c7d6c-7ff0-41c5-8b01-da220652bdba">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
