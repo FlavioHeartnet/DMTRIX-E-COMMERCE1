@@ -21,7 +21,7 @@ $usuarioLogado2 = $usuarioLogado['idUsuario'];
 <?php include("topo.php"); ?>
 <div class="centro">
 	<div class="clear bgBranco secaoInterna">
-    	<h2>Administrar Brindes<br><span>Você pode adicionar e editar brindes disponiveis na loja.</span></h2>
+    	<h2>Administrar Brindes<br><span>A partir de agora coloque o valor que será adicionada ou retirado com o sinal '-', não ponha o valor completo pois será adicionado ao estoque o que ocasionará em erro! .</span></h2>
         
         <form enctype="multipart/form-data" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" class="left">
             <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border:1px solid #ccc;">
@@ -58,7 +58,7 @@ $usuarioLogado2 = $usuarioLogado['idUsuario'];
                     	<td width="20%">Valor: <div class="campo"><input type="text" name="valor" class="left" placeholder="Valor" data-mask="0000.00" data-mask-reverse="true"
                          required value="<?php echo $rsBuscaBrinde['valor']; ?>"></div></td>
                         <input type="hidden" name="idBrinde" value="<?php echo $rsBuscaBrinde['idBrinde'];?>">
-                    	<td width="20%">Estoque: <div class="campo"><input type="text" name="quantidade" class="left" placeholder="Estoque atual: <?php echo $rsBuscaBrinde['estoque']; ?>" ></div></td>
+                    	<td width="20%">Estoque: <div class="campo"><input type="text" name="quantidade" class="left"  placeholder="Estoque atual: <?php echo $rsBuscaBrinde['estoque']; ?>" ><p>O valor que voçê colocar sera adicionado ou retirado do estoque.</p></div></td>
                     		<td width="20%"><input type="file" name="foto" value="<?php echo $rsBuscaBrinde['foto']; ?>"></td>
                     </tr>
                     <tr><td width="20%"><input type="submit" name="AtualizaBrinde" value="Atualizar Brinde"  class="largura100 right btnSubmit"></td></tr>

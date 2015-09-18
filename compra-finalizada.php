@@ -18,7 +18,7 @@ if($_SESSION['usuario'] == ""){ header("Location: index.php"); };
  <?php
 				$usuarioLogado = $_SESSION['usuario']; $usuarioLogado = odbc_fetch_array(odbc_exec($conexao, "SELECT * FROM dbo.usuariosDMTRIX WHERE usuario = '$usuarioLogado'"));
 				$idUsuario = $usuarioLogado['idUsuario'];
-				$buscaCompra = odbc_exec($GLOBALS['conexao'], "select top 1 * from [marketing].[dbo].[ComprasDMTRIX] c inner join [marketing].[dbo].PedidoDMTRIX p on (c.idCompra = p.idCompra) where p.status_pedido= '2' and p.idUsuario = '$idUsuario' ORDER BY p.idCompra DESC ");
+				$buscaCompra = odbc_exec($GLOBALS['conexao'], "select top 1 * from [marketing].[dbo].[ComprasDMTRIX] c inner join [marketing].[dbo].PedidoDMTRIX p on (c.idCompra = p.idCompra) where  p.idUsuario = '10' ORDER BY p.idCompra DESC ");
 		        $rsbuscaCompra = odbc_fetch_array($buscaCompra);
 		        $Compra = $rsbuscaCompra['idCompra']; 
 				$valor = $rsbuscaCompra['valorTotal'];

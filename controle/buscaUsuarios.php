@@ -63,7 +63,7 @@ while ($rsBuscaUsuarios = odbc_fetch_array($sql)) {
             <td><?php echo $niveis[$rsBuscaUsuarios['nivel'] - 1]; ?></td>
             <td>
                 <div class="campo"><input type="text" name="budgetBrindes[]" class="left"
-                                          placeholder="Brindes atual: <?php echo $rsBuscaUsuarios['budgetBrindes'] ?>" data-mask="000000.00"
+                                          placeholder="Brindes: <?php echo $rsBuscaUsuarios['budgetBrindes'] ?>" data-mask="000000.00"
                                           data-mask-reverse="true"
                                           value="">
                 </div>
@@ -71,7 +71,7 @@ while ($rsBuscaUsuarios = odbc_fetch_array($sql)) {
             <td>
                 <div class="campo">
                     <input type="text" name="budgetMerchandising[]" class="left"
-                           placeholder="Merchandising atual: <?php echo $rsBuscaUsuarios['budgetMerchandising'] ?>"
+                           placeholder="Merchandising: <?php echo $rsBuscaUsuarios['budgetMerchandising'] ?>"
                            data-supervisor="<?php echo $rsBuscaUsuarios['supervisor']; ?>"
                            data-mask="000000.00" data-mask-reverse="true"
                            value="">
@@ -91,7 +91,7 @@ while ($rsBuscaUsuarios = odbc_fetch_array($sql)) {
         </tr>
         <tr>
 
-            <td><input type="button" class="btn btnSubmit largura40" name="extrato" value="Extrato"></td>
+            <td colspan="2"><input  type="button" class="btnSubmit largura40" name="extrato" value="Extrato"></td>
 
         </tr>
         <tr>
