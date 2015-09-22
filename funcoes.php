@@ -1629,4 +1629,13 @@ function MovimentacaoEstoque($tipoMov, $idPedido, $quantidade, $estoque, $idUsua
 
 }
 
+function extratos($idUsuario)
+{
+
+
+
+
+
+
+}
 ?>

@@ -57,6 +57,7 @@ while ($rsBuscaUsuarios = odbc_fetch_array($sql)) {
 
 
     if ($status == 1 and $x = 1) {
+
         ?>
         <tr>
             <td><?php echo utf8_encode($rsBuscaUsuarios['nome'] . " " . $rsBuscaUsuarios['sobrenome']); ?></td>
@@ -86,12 +87,11 @@ while ($rsBuscaUsuarios = odbc_fetch_array($sql)) {
 
                         </select>
                     </div></td>
-            <input type="hidden" name="idUsuario[]"
-                   value="<?php echo $rsBuscaUsuarios['idUsuario']; ?>">
+            <input type="hidden" name="idUsuario[]" value="<?php echo $rsBuscaUsuarios['idUsuario']; ?>">
         </tr>
         <tr>
 
-            <td colspan="2"><input  type="button" class="btnSubmit largura40" name="extrato" value="Extrato"></td>
+            <td colspan="1"><input type="button" value="Extrato" name="extrato" class="ui button budget"></td>
 
         </tr>
         <tr>
@@ -101,6 +101,7 @@ while ($rsBuscaUsuarios = odbc_fetch_array($sql)) {
         </tr>
 
     <?php
+
     }
 }
         ?>
@@ -108,6 +109,9 @@ while ($rsBuscaUsuarios = odbc_fetch_array($sql)) {
 
             </tbody>
 </table>
+
+
+
 
 <?php
 

@@ -26,7 +26,7 @@ $nome = $usuarioLogado['nome']." ".$usuarioLogado['sobrenome'];
 <?php include("topo.php"); ?>
 
 <div class="centro">
-    <div class="clear bgBranco secao1 aprovar-reprovar">
+    <div class="clear bgBranco secao1">
         <h2>Distribuição de Budget<br><span>Altere o budget para Merchandising e para Brindes de cada supervisor, a partir de agora coloque a quantidade a ser adicionada ao budget.</span></h2>
 
         <?php
@@ -57,23 +57,23 @@ $nome = $usuarioLogado['nome']." ".$usuarioLogado['sobrenome'];
                 </div>
             </div>
 
+
+
         </form>
 
 
 
+        <div id="janela" class="ui basic modal">
+            <i class="close icon"></i>
 
+            <div id="resultado2">
 
-
-
-    </div>
-    <div id="janela" class="ui basic modal">
-        <i class="close icon"></i>
-
-        <div id="resultado">
-
+            </div>
         </div>
 
+
     </div>
+
     <?php include("rodape.php");
 
     $buscaUsuarios = odbc_exec($conexao, "SELECT * FROM usuariosDMTRIX WHERE nivel = '3'  OR nivel = '4' OR nivel = '5' and status = 1  ORDER BY nome ASC");
@@ -83,12 +83,12 @@ $nome = $usuarioLogado['nome']." ".$usuarioLogado['sobrenome'];
 
 
 
+
 <script type="text/javascript" src="js/bibliotecas.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 <script src="js/js/semantic.js"></script>
 
 <script type="text/javascript">
-    $(document).ready(function(){
 
 
 
@@ -117,7 +117,12 @@ $nome = $usuarioLogado['nome']." ".$usuarioLogado['sobrenome'];
                     method      : 'The method you called is not defined.'
                 }
             });
-    });
+        $('.budget').click(function(){
+
+
+            $('.ui.basic.modal').modal('show');
+
+        });
 
     var req;
     function buscarPedido(valor,valor2,valor3,valor4) {
@@ -160,6 +165,7 @@ $nome = $usuarioLogado['nome']." ".$usuarioLogado['sobrenome'];
 
 
 
+
 </script>
 <?php
 if(isset($_POST['budget']))
@@ -172,7 +178,13 @@ if(isset($_POST['budget']))
 
 
     echo atualizaBudget($idUsuario, $budgetMerchandising, $budgetBrindes, $usuarioLogado, $observacao);
-};
+}elseif(isset($_POST['extrato']))
+{
+
+
+
+
+}
 ?>
 </body>
 </html>

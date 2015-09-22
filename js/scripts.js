@@ -599,10 +599,6 @@ function buscarNoticias(valor) {
     req.send(null);
 }
 
-$('input[name=\'extrato\']').click(function(){
-    $('.ui.basic.modal')
-        .modal('show');
-});
 
 // Highchart - grafico da fila 
 
