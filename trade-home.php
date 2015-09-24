@@ -299,7 +299,7 @@ include("rodape.php");
             // process the form
             $.ajax({
                 type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
-                url         : 'salvarArte.php', // the url where we want to POST
+                url         : 'dmtrix/salvarArte.php', // the url where we want to POST
                 data        : dados, // our data object
                 encode          : true
             })

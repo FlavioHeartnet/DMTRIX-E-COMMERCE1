@@ -27,46 +27,42 @@ $nome = $usuarioLogado['nome']." ".$usuarioLogado['sobrenome'];
 
 <div class="centro">
     <div class="clear bgBranco secao1">
-        <h2>Distribuição de Budget<br><span>Altere o budget para Merchandising e para Brindes de cada supervisor, a partir de agora coloque a quantidade a ser adicionada ao budget.</span></h2>
+        <h2>Extratos Gerais<br><span>Selecione os funcionarios para visualizar a sua movimentação de budget.</span></h2>
 
         <?php
         $buscaUsuarios = odbc_exec($conexao, "SELECT * FROM usuariosDMTRIX WHERE nivel = '3'  OR nivel = '4' OR nivel = '5'  ORDER BY nome ASC");
 
         ?>
         <div class="ui grid">
-        <div class="four wide column ">
-            <div class="ui fluid category search ">
-            <div class="ui icon input">
-                <input  onclick="buscarPedido(this.value,0,0,0)" onkeyup="buscarPedido(this.value,0,0,0)" class="prompt" type="text" placeholder="Proucurar Usuario">
+            <div class="four wide column ">
+                <div class="ui fluid category search ">
+                    <div class="ui icon input">
+                        <input class="prompt" id="buscaUser" type="text" placeholder="Proucurar Usuario">
 
-                <i  class="search icon"></i>
+                        <i id="buscar" onclick=""  class="search icon"></i>
+                    </div>
+                    <div class="results"></div>
+                </div>
             </div>
-            <div class="results"></div>
+            <div class="two wide column ">
+                <div class="ui primary button">15 dias</div>
             </div>
+            <div class="two wide column ">
+                <div class="ui primary button">7 dias</div>
+            </div>
+            <div class="two wide column ">
+                <div class="ui primary button">3 dias</div>
+            </div>
+
         </div>
 
-        <div class="four wide column">
-                <a href="extrato.php" class="ui primary button">Extratos</a>
-            <div class="results"></div>
-        </div>
-        </div>
-
-
-
-        <p><strong>Aqui você deve colocar o valor que sera adicionado ao budget, caso queira retira coloque o sinal de "-" antes do numero para mostrar que é negativo!</strong> </p>
+        <br>
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 
             <div class="ui segment column" id="resultado">
 
 
             </div>
-            <div class="ui segment column">
-                <div class="row">
-                    <input type="hidden" name="usuarioLogado" value="<?php echo $usuario; ?>">
-                    <input type="submit" name="budget" value="Atualizar Budget" class="largura25 right btnSubmit">
-                </div>
-            </div>
-
 
 
         </form>
@@ -101,38 +97,45 @@ $nome = $usuarioLogado['nome']." ".$usuarioLogado['sobrenome'];
 <script type="text/javascript">
 
 
+    $('#buscar').click(function()
+    {
+        var valor =  $(this).prev('input').val();
+
+        buscarPedido(valor,0,0,0);
+
+    });
 
 
-        var content = [
+    var content = [
 
-            <?php while($rsBusca = odbc_fetch_array($buscaUsuarios)){ ?>
+        <?php while($rsBusca = odbc_fetch_array($buscaUsuarios)){ ?>
 
-            { title: '<?php echo $rsBusca['nome']; ?>' },
+        { title: '<?php echo $rsBusca['nome']; ?>' },
 
-            <?php } ?>
+        <?php } ?>
 
-            {title: ''}
-        ];
+        {title: ''}
+    ];
 
-        $('.ui.search')
-            .search({
-                source: content,
-                error : {
-                    source      : 'Cannot search. No source used, and Semantic API module was not included',
-                    noResults   : 'Usuario não encontrado!',
-                    logging     : 'Error in debug logging, exiting.',
-                    noTemplate  : 'A valid template name was not specified.',
-                    serverError : 'There was an issue with querying the server.',
-                    maxResults  : 'Results must be an array to use maxResults setting',
-                    method      : 'The method you called is not defined.'
-                }
-            });
-        $('.budget').click(function(){
-
-
-            $('.ui.basic.modal').modal('show');
-
+    $('.ui.search')
+        .search({
+            source: content,
+            error : {
+                source      : 'Cannot search. No source used, and Semantic API module was not included',
+                noResults   : 'Usuario não encontrado!',
+                logging     : 'Error in debug logging, exiting.',
+                noTemplate  : 'A valid template name was not specified.',
+                serverError : 'There was an issue with querying the server.',
+                maxResults  : 'Results must be an array to use maxResults setting',
+                method      : 'The method you called is not defined.'
+            }
         });
+    $('.budget').click(function(){
+
+
+        $('.ui.basic.modal').modal('show');
+
+    });
 
     var req;
     function buscarPedido(valor,valor2,valor3,valor4) {
@@ -146,7 +149,7 @@ $nome = $usuarioLogado['nome']." ".$usuarioLogado['sobrenome'];
         }
 
 // Arquivo PHP juntamente com o valor digitado no campo (método GET)
-        var url = "controle/buscaUsuarios.php?valor="+valor+"&valor2="+valor2+"&valor3="+valor3+"&valor4="+valor4;
+        var url = "controle/buscaExtrato.php?valor="+valor+"&valor2="+valor2+"&valor3="+valor3+"&valor4="+valor4;
 
 
 // Chamada do método open para processar a requisição
@@ -157,7 +160,7 @@ $nome = $usuarioLogado['nome']." ".$usuarioLogado['sobrenome'];
 
             // Exibe a mensagem "Buscando Noticias..." enquanto carrega
             if(req.readyState == 1) {
-                document.getElementById('resultado').innerHTML = '<div class="ui active inverted dimmer"> <div class="ui text loader">Buscando Usuario..</div> </div> <p></p>';
+                document.getElementById('resultado').innerHTML = '<div class="ui active inverted dimmer"> <div class="ui text loader">Gerando extrato..</div> </div> <p></p>';
             }
 
             // Verifica se o Ajax realizou todas as operações corretamente

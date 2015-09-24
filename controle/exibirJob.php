@@ -91,7 +91,7 @@ while($rsSql = odbc_fetch_array($sql))
                    </tbody>
                </table>
            </form>
-           <form id="form<?php echo $i ?>" action="../salvarArte.php" target="_blank" method="post" enctype="multipart/form-data">
+           <form id="form<?php echo $i ?>" action="salvarArte.php" target="_blank" method="post" enctype="multipart/form-data">
                <table class="ui table" width="100%" align="center" border="0" cellpadding="0"
                       cellspacing="0">
 
@@ -213,7 +213,7 @@ while($rsSql = odbc_fetch_array($sql))
                     </tbody>
                 </table>
             </form>
-            <form id="form<?php echo $i ?>" action="../salvarArte.php" target="_blank" method="post" enctype="multipart/form-data">
+            <form id="form<?php echo $i ?>" action="salvarArte.php" target="_blank" method="post" enctype="multipart/form-data">
                 <table class="ui table" width="100%" align="center" border="0" cellpadding="0"
                        cellspacing="0">
 
@@ -331,7 +331,7 @@ while($rsSql = odbc_fetch_array($sql))
                     </tbody>
                 </table>
             </form>
-            <form enctype="multipart/form-data" action="../salvarArte.php" target="_blank" method="post" id="form<?php echo $i ?>">
+            <form enctype="multipart/form-data" action="salvarArte.php" target="_blank" method="post" id="form<?php echo $i ?>">
                 <table class="ui table" width="100%" align="center" border="0" cellpadding="0"
                        cellspacing="0">
 

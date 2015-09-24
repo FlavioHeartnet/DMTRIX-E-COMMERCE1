@@ -74,10 +74,13 @@ if($_SESSION['usuario'] == ""){ header("Location: index.php"); };
 								$valor = $rsBrinde['valor'];
 								$quantidade = $rsBuscaBrinde['quantidade'];
 								$total = $valor * $quantidade;
+                                $array[] = $total;
+
+
 								
 								 ?>
                                 
-                                <td class="valorProduto" width="90px">R$<?php echo $total; ?></td><input type="hidden" name="valor" value = "<?php echo $total; ?>"> 
+                                <td class="valorProduto" width="90px">R$<?php echo $total; ?></td><input type="hidden" name="valor[]" value = "<?php echo $total; ?>">
                             </tr>
                             <tr>
                              		 <td align="char" colspan="6"><input type="submit" name="Passo" value="Atualizar" class="largura25 right btnAzul"></td>
@@ -113,7 +116,7 @@ if($_SESSION['usuario'] == ""){ header("Location: index.php"); };
                         <input type="hidden" name="quantidade[]" value="<?php echo $rsBuscaBrinde['quantidade']; ?>">
                         <input type="hidden" name="pedido[]" value="<?php echo $rsBuscaBrinde['idPedido']; ?>">
                         <input type="hidden" name="brinde[]" value="<?php echo $rsBuscaBrinde['idBrinde']; ?>">
-                           <input type="hidden" name="brinde[]" value="<?php echo $rsBuscaBrinde['idBrinde']; ?>">
+
                         
                         
 						
@@ -131,6 +134,8 @@ if($_SESSION['usuario'] == ""){ header("Location: index.php"); };
                   </form>
 		</div>
 <?php include("rodape.php");
+
+
 	if(isset($_POST['excluir']))
 	{
 			$id = $_POST['idBrinde'];
@@ -177,7 +182,7 @@ if($_SESSION['usuario'] == ""){ header("Location: index.php"); };
 
 		if($budget > $valorTotal or $budget == $valorTotal )
 		{
-			AddCompraBrinde($valorTotal, $idUsuario, $nome, $budget, $quantidade, $idPedido, $estoque );
+			AddCompraBrinde($valorTotal, $idUsuario, $nome, $budget, $quantidade, $idPedido, $estoque, $array );
 
 		}else
 		{

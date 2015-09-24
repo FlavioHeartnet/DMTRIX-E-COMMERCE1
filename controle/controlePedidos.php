@@ -52,6 +52,8 @@ if($acao == 0) {
         odbc_exec($GLOBALS['conexao'],"update [marketing].[dbo].[usuariosDMTRIX] set budgetMerchandising =  '$total'  WHERE idUsuario = '$idUsuario' OR idUsuario = '$supervisor' OR supervisor = '$supervisor'");
         odbc_exec($GLOBALS['conexao'], "INSERT INTO dbo.historicosDMTRIX(acao) VALUES('O usuário de codigo: $usuario cancelou o pedido: $idPedido! e foi devolvido $valor para o budget de merchan, o budget atual é: $total')");
         $historico = "credito";
+        $observacao = "cancelamento Pedido";
+        AddMovimentacao($valor, $idPedido, 2, $observacao, $total, $idUsuario, $usuario);
     }
     $query = odbc_exec($GLOBALS['conexao'], "update PedidoDMTRIX set status_pedido = 11 where idPedido = '$idPedido'");
 

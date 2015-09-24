@@ -37,7 +37,7 @@ $query4 =  MovimentacaoEstoque($tipoMov, $idPedido, $quantidade, $novoEstoque, $
 $observacao = "Cancelamento de pedido de Brinde";
 $tipo = 2;
 
-$query2 = AddCreditoDMTRIX($total, $idPedido, $tipo, $observacao, $UsuarioLogado, $total, $idUsuario);
+$query2 = AddMovimentacao($valor, $idPedido, 4, $observacao, $total, $idUsuario, $UsuarioLogado);
 
 $query = true;
 if($query == true and $query2 == true and $query3 == true and $query4 == true)

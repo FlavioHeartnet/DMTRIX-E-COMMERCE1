@@ -219,7 +219,7 @@ function deletaBrinde($idUsuario, $idPedido, $nome )
 	
 }
 
-function AddCompraBrinde($valorTotal, $idUsuario, $nome, $budget, $quantidade, $pedido, $estoque)
+function AddCompraBrinde($valorTotal, $idUsuario, $nome, $budget, $quantidade, $pedido, $estoque, $valores)
 {
 	$dataSolicitacao = date("d/m/Y H:i:s");
 	$query = odbc_exec($GLOBALS['conexao'], "insert into [marketing].[dbo].[ComprasBrindesDMTRIX] (dataCompra, ValorTotal, idUsuario, status_compra) values('$dataSolicitacao','$valorTotal','$idUsuario',1)");
@@ -237,18 +237,24 @@ function AddCompraBrinde($valorTotal, $idUsuario, $nome, $budget, $quantidade, $
         $budgetAtualizado = $budget - $valorTotal;
         $budgetAtualizado= number_format($budgetAtualizado, 2, '.', '');
         $idBrinde = $_POST['brinde'];
+        $Totalbudget = $budget;
+
         for ($i = 0; $i < count($pedido); $i++)
         {
             if ($estoque[$i] >= $quantidade[$i])
             {
+
+                $Totalbudget -= $valores[$i];
 
             $quant = $quantidade[$i];
             $estoqueAtual = $estoque[$i] - $quantidade[$i];
                 $idPedido = $pedido[$i];
 
                 $tipoMov = "Compra de Brinde";
-
-                $controleEstoque = MovimentacaoEstoque($tipoMov, $idPedido, $quantidade[$i], $estoqueAtual, $idUsuario);
+                $observacao = "Compra de Brinde";
+                $controleEstoque = MovimentacaoEstoque($tipoMov, $idPedido, -$quantidade[$i], $estoqueAtual, $idUsuario);
+                AddMovimentacao($valores[$i], $idPedido, 3, $observacao, $Totalbudget, $idUsuario, $idUsuario);
+                
 
             odbc_exec($GLOBALS['conexao'], "update [marketing].[dbo].[brindesDMTRIX] set estoque = '$estoqueAtual' where  idBrinde = '$idBrinde[$i]'");
 
@@ -262,12 +268,18 @@ function AddCompraBrinde($valorTotal, $idUsuario, $nome, $budget, $quantidade, $
 
 
         $RsUsuario = odbc_fetch_array(odbc_exec($GLOBALS['conexao'], "select * from usuariosDMTRIX where idUsuario = '$idUsuario'"));
+
         $nome = $RsUsuario['nome'] . " " . $RsUsuario['sobrenome'];
 
 
         if ($query == true) {
             $query = odbc_exec($GLOBALS['conexao'], "update [marketing].[dbo].[ComprasBrindesDMTRIX] set status_compra = 2 where idCompra = '$Compra'");
             $query = odbc_exec($GLOBALS['conexao'], "update [marketing].[dbo].[PedidoBrindesDMTRIX] set statusBrindes = 2 , valorTotal = '$valorTotal', dataCompra = '$dataSolicitacao'  where idUsuario = '$idUsuario' and statusBrindes = 1");
+
+
+
+
+
 
         } else {
             echo "<script>alert('Erro na atualização do pedido.'); </script>";
@@ -637,6 +649,7 @@ function Aprovacoes($status, $idPedido, $idUsuario, $nome,$compra, $motivo, $mot
 
                 $responsavel = $budget['supervisor'];
                 $budgetAtual = $budget['budgetMerchandising'];
+                $tipo = 1;
 
                 echo "<script>alert('$budgetAtual , $valoProduto');</script>";
 
@@ -646,7 +659,7 @@ function Aprovacoes($status, $idPedido, $idUsuario, $nome,$compra, $motivo, $mot
                     odbc_exec($GLOBALS['conexao'],"update [marketing].[dbo].[usuariosDMTRIX] set budgetMerchandising = '$total'  where idUsuario = '$idUsuario'");
                     odbc_exec($GLOBALS['conexao'],"update [marketing].[dbo].[usuariosDMTRIX] set budgetMerchandising = '$total'  WHERE idUsuario = '$idUsuario' OR idUsuario = '$responsavel' OR supervisor = '$idUsuario'");
                     odbc_exec($GLOBALS['conexao'],"insert into [marketing].[dbo].[ControleAprovacoesDMTRIX] (idCompra, idPedido,data_aprovado) values ('$idCompra','$idPedido',GETUTCDATE())");//insere no controle de aprovações
-                    AddDebitoDMTRIX($valoProduto, $idPedido, 1, $observacao, $responsavel, $budget, $idUsuario, $idLoja);
+                    AddMovimentacao($valoProduto, $idPedido, $tipo, $observacao, $total, $idUsuario, $idUsuario);//(valor Produto, codigo pedido, tipo de transação, valor atual budget, codigo usuario, codigo de quem fez a trasação)
                 }else
                 {
                     echo "<script>alert('Valores não atualizados, pois o valor é maior que o budget atual'); location.href='aprovacao-reprovacao.php';</script>";
@@ -1216,27 +1229,29 @@ function atualizaBudget($idUsuario, $budgetMerchandising, $budgetBrindes, $usuar
         $responsavel = $buscar['supervisor'];
         $observacao = $observacao[$i];
 
+
             // Atualiza budget de Merchandising
             $query = odbc_exec($GLOBALS['conexao'], "UPDATE dbo.usuariosDMTRIX SET budgetMerchandising = '$total' WHERE supervisor = '$idUsuario[$i]'");
             $query = odbc_exec($GLOBALS['conexao'], "UPDATE dbo.usuariosDMTRIX SET budgetMerchandising = '$total' WHERE idUsuario = '$idUsuario[$i]'");
             if($merchan < 0) {
 
-                $merchan = abs($merchan);
+
                 if($merchan != 0) {
 
                     if($observacao == "Credito Trimestral")
                     {
                         $observacao = "Debito Trimestral";
                     }
-
-                    $query2 = AddDebitoDMTRIX($merchan, $idPedido, 1, $observacao, $responsavel, $total, $idUsuario[$i], $idLoja);
+                    $tipo = 1;
+                    $query2 = AddMovimentacao($merchan, $idPedido, 1, $observacao, $total, $idUsuario[$i], $usuarioLogado);
 
                 }
 
             }else
             {
                 if($merchan != 0) {
-                    $query2 = AddCreditoDMTRIX($merchan, $idPedido, 1, $observacao, $usuarioLogado, $total, $idUsuario[$i]);
+
+                    $query2 = AddMovimentacao($merchan, $idPedido, 2, $observacao, $total, $idUsuario[$i], $usuarioLogado);
                 }
             }
 
@@ -1254,20 +1269,20 @@ function atualizaBudget($idUsuario, $budgetMerchandising, $budgetBrindes, $usuar
             // Atualiza budget de Brindes
             $query = odbc_exec($GLOBALS['conexao'], "UPDATE dbo.usuariosDMTRIX SET budgetBrindes = '$total' WHERE idUsuario = '$idUsuario[$i]'");
         if($brinde < 0) {
-            $brinde = abs($brinde);
+
             if($brinde != 0) {
                 if($observacao == "Credito Trimestral")
                 {
                     $observacao = "Debito Trimestral";
                 }
-                $query2 = AddDebitoDMTRIX($brinde, $idPedido, 2, $observacao, $responsavel, $total, $idUsuario[$i], $idLoja);
+                $query2 = AddMovimentacao($brinde, $idPedido, 3, $observacao, $total, $idUsuario[$i], $usuarioLogado);
             }
 
         }else
         {
 
             if($brinde != 0) {
-                $query2 = AddCreditoDMTRIX($brinde, $idPedido, 2, $observacao, $usuarioLogado, $total, $idUsuario[$i]);
+                $query2 = AddMovimentacao($brinde, $idPedido, 4, $observacao, $total, $idUsuario[$i], $usuarioLogado);
             }
         }
 
@@ -1506,14 +1521,16 @@ function CarregaLogo($nome_material,$nome_temp)
 };
 
 
-function AddCreditoDMTRIX($valor, $idPedido, $tipo, $observacao, $controle, $budget, $idUsuario)
+function AddMovimentacao($valor, $idPedido, $tipo, $observacao, $budget, $idUsuario, $controle)
 {
 
-    if($tipo == 1) {
+    if($tipo == 1 or $tipo == 2)
+    {
 
 
-       $credito =  odbc_exec($GLOBALS['conexao'],"insert into creditoDMTRIX (valor,dataCredito,idUsuario,controle,tipo,observacao,idPedido, budget) values ('$valor',GETDATE(),'$idUsuario','$controle','$tipo','$observacao','$idPedido', '$budget')");
-        if($credito == true)
+        $mov =  odbc_exec($GLOBALS['conexao'],"insert into movimentacaoDMTRIX (dataMov, tipoMov,observacao,valor,budgetMerchan,idUsuario,controle,idPedido) values (GETDATE(),'$tipo','$observacao','$valor','$budget','$idUsuario','$controle','$idPedido')");
+
+        if($mov == true)
         {
 
             return true;
@@ -1523,49 +1540,12 @@ function AddCreditoDMTRIX($valor, $idPedido, $tipo, $observacao, $controle, $bud
             return false;
         }
 
-    }elseif($tipo == 2)
+    }elseif($tipo == 3 or $tipo == 4)
     {
 
-        $credito =  odbc_exec($GLOBALS['conexao'],"insert into creditoDMTRIX (valor,dataCredito,idUsuario,controle,tipo,observacao,idPedido, budget) values ('$valor',GETDATE(),'$idUsuario','$controle','$tipo','$observacao','$idPedido','$budget')");
-        if($credito == true)
-        {
+        $mov =  odbc_exec($GLOBALS['conexao'],"insert into movimentacaoDMTRIX (dataMov, tipoMov,observacao,valor,budgetBrindes,idUsuario,controle,idPedido) values (GETDATE(),'$tipo','$observacao','$valor','$budget','$idUsuario','$controle','$idPedido')");
 
-            return true;
-
-        }else
-        {
-            return false;
-        }
-
-    }
-
-}
-
-function AddDebitoDMTRIX($valor, $idPedido, $tipo, $observacao, $responsavel, $budget, $idUsuario, $idLoja)
-{
-
-    if($tipo == 1)
-    {
-
-
-        $credito =  odbc_exec($GLOBALS['conexao'],"insert into debitoDMTRIX (valor,dataDebito,idUsuario,supervisor,idLoja,idPedido,observacao, tipo, budget ) values ('$valor',GETDATE(),'$idUsuario','$responsavel','$idLoja','$idPedido','$observacao',1,'$budget')");
-
-        if($credito == true)
-        {
-
-            return true;
-
-        }else
-        {
-            return false;
-        }
-
-    }elseif($tipo == 2)
-    {
-
-        $credito =  odbc_exec($GLOBALS['conexao'],"insert into debitoDMTRIX (valor,dataDebito,idUsuario,supervisor,idLoja,idPedido,observacao, tipo, budget ) values ('$valor',GETDATE(),'$idUsuario','$responsavel','$idLoja','$idPedido','$observacao',2,'$budget')");
-
-        if($credito == true)
+        if($mov == true)
         {
 
             return true;

@@ -89,11 +89,7 @@ while ($rsBuscaUsuarios = odbc_fetch_array($sql)) {
                     </div></td>
             <input type="hidden" name="idUsuario[]" value="<?php echo $rsBuscaUsuarios['idUsuario']; ?>">
         </tr>
-        <tr>
 
-            <td colspan="1"><input type="button" value="Extrato" name="extrato" class="ui button budget"></td>
-
-        </tr>
         <tr>
 
             <td>  </td>

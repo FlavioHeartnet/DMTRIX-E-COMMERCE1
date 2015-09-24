@@ -18,7 +18,5 @@ $exteFoto_ex = strtolower($exteFoto);
 
 $extencaoF = $pedido."".$nome_material.$exteFoto_ex;
 
-echo "<script>alert('pedido $pedido, usuario: $usuario, foto: $extencaoF');</script>";
-
 CarregaArte($extencaoF,$nome_temp);
 $result = SalvarArte($usuario, $extencaoF, $pedido);

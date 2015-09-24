@@ -33,184 +33,181 @@
       <file leaf-file-name="funcoes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/funcoes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21190476" vertical-offset="26053" max-vertical-offset="27982">
-              <caret line="1543" column="24" selection-start-line="1543" selection-start-column="9" selection-end-line="1543" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.15119047" vertical-offset="11110" max-vertical-offset="27642">
+              <caret line="661" column="26" selection-start-line="661" selection-start-column="20" selection-end-line="661" selection-end-column="26" />
               <folding>
-                <marker date="1442933669877" expanded="true" signature="583:970" placeholder="..." />
-                <marker date="1442933669877" expanded="true" signature="589:959" placeholder="..." />
-                <marker date="1442933669877" expanded="true" signature="599:739" placeholder="..." />
-                <marker date="1442933669877" expanded="false" signature="612:625" placeholder="..." />
-                <marker date="1442933669877" expanded="false" signature="781:831" placeholder="..." />
-                <marker date="1442933669877" expanded="false" signature="868:918" placeholder="..." />
-                <marker date="1442933669877" expanded="true" signature="1977:2375" placeholder="..." />
-                <marker date="1442933669877" expanded="true" signature="1983:2364" placeholder="..." />
-                <marker date="1442933669877" expanded="true" signature="1993:2133" placeholder="..." />
-                <marker date="1442933669877" expanded="false" signature="2006:2019" placeholder="..." />
-                <marker date="1442933669877" expanded="false" signature="2175:2225" placeholder="..." />
-                <marker date="1442933669877" expanded="false" signature="2273:2323" placeholder="..." />
-                <marker date="1442933669877" expanded="true" signature="2946:3002" placeholder="select * fro..tarefasDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="3131:3246" placeholder="insert into ..." />
-                <marker date="1442933669877" expanded="true" signature="3308:3398" placeholder="update [MARK..." />
-                <marker date="1442933669877" expanded="true" signature="3672:3775" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="3975:4098" placeholder="update [MARK..." />
-                <marker date="1442933669877" expanded="true" signature="4145:4235" placeholder="update [MARK..." />
-                <marker date="1442933669877" expanded="true" signature="4333:4439" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="4762:4996" placeholder="insert into ..." />
-                <marker date="1442933669877" expanded="true" signature="5071:5174" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="5676:5854" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="5928:6038" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="6457:6559" placeholder="delete from ..." />
-                <marker date="1442933669877" expanded="true" signature="6633:6766" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="7253:7412" placeholder="insert into ..." />
-                <marker date="1442933669877" expanded="true" signature="7495:7609" placeholder="select idCom..." />
-                <marker date="1442933669877" expanded="true" signature="7766:7891" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="8577:8681" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="8863:8975" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="9052:9111" placeholder="select * fro..usuariosDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="9269:9365" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="9422:9606" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="9797:9963" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="10107:10259" placeholder="select * FRO..." />
-                <marker date="1442933669877" expanded="true" signature="11520:11613" placeholder="update [MARK..." />
-                <marker date="1442933669877" expanded="true" signature="11689:11802" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="12450:12529" placeholder="select * fro..." />
-                <marker date="1442933669877" expanded="true" signature="14421:14460" placeholder="select * fro..lojasDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="14529:14778" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="14858:14917" placeholder="select * fro..usuariosDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="15120:15180" placeholder="select * fro..usuariosDMTRIX..." />
-                <marker date="1442933669877" expanded="false" signature="16029:16138" placeholder="..." />
-                <marker date="1442933669877" expanded="false" signature="16261:16344" placeholder="..." />
-                <marker date="1442933669877" expanded="false" signature="16436:16539" placeholder="..." />
-                <marker date="1442933669877" expanded="true" signature="16598:16696" placeholder="SELECT idUsu..usuariosDMTRIX..." />
-                <marker date="1442933669877" expanded="false" signature="17298:17417" placeholder="..." />
-                <marker date="1442933669877" expanded="true" signature="17881:17956" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="18717:18966" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="19046:19105" placeholder="select * fro..usuariosDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="19304:19364" placeholder="select * fro..usuariosDMTRIX..." />
-                <marker date="1442933669877" expanded="false" signature="20208:20317" placeholder="..." />
-                <marker date="1442933669877" expanded="false" signature="20440:20523" placeholder="..." />
-                <marker date="1442933669877" expanded="false" signature="20615:20718" placeholder="..." />
-                <marker date="1442933669877" expanded="true" signature="20777:20875" placeholder="SELECT idUsu..usuariosDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="21306:21374" placeholder="SELECT * FRO..." />
-                <marker date="1442933669877" expanded="false" signature="21706:21825" placeholder="..." />
-                <marker date="1442933669877" expanded="true" signature="22289:22367" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="22960:23050" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="23114:23260" placeholder="select * fro..." />
-                <marker date="1442933669877" expanded="true" signature="23385:23485" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="23649:23729" placeholder="select * fro..." />
-                <marker date="1442933669877" expanded="true" signature="24708:24783" placeholder="select * fro..." />
-                <marker date="1442933669877" expanded="true" signature="24915:24982" placeholder="select * fro..ControleAprovacoesDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="25109:25202" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="25328:25407" placeholder="select * fro..." />
-                <marker date="1442933669877" expanded="true" signature="25830:25938" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="25993:26160" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="26215:26352" placeholder="insert into ..." />
-                <marker date="1442933669877" expanded="true" signature="26774:26867" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="26987:27107" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="27691:27784" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="27832:27987" placeholder="insert into ..." />
-                <marker date="1442933669877" expanded="true" signature="28098:28219" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="28619:28712" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="28759:28919" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="29006:29126" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="29205:29320" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="29688:29781" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="29828:29996" placeholder="insert into ..." />
-                <marker date="1442933669877" expanded="true" signature="30107:30223" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="31026:31096" placeholder="update Pedid..." />
-                <marker date="1442933669877" expanded="true" signature="31170:31302" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="31837:32002" placeholder="update Pedid..." />
-                <marker date="1442933669877" expanded="true" signature="32073:32152" placeholder="select * fro..." />
-                <marker date="1442933669877" expanded="true" signature="32498:32557" placeholder="select * fro..PedidoDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="32705:32830" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="32913:32966" placeholder="select * fro..PedidoDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="33325:33418" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="33718:33842" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="33952:34091" placeholder="select * fro..." />
-                <marker date="1442933669877" expanded="true" signature="34292:34352" placeholder="select * fro..usuariosDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="34537:34590" placeholder="select * fro..PedidoDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="35522:35642" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="36184:36363" placeholder="update dbo.P..." />
-                <marker date="1442933669877" expanded="true" signature="36437:36564" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="37486:37741" placeholder="insert into ..." />
-                <marker date="1442933669877" expanded="true" signature="38195:38343" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="38809:38963" placeholder="insert into ..." />
-                <marker date="1442933669877" expanded="true" signature="39041:39157" placeholder="select idCom..." />
-                <marker date="1442933669877" expanded="true" signature="39297:39415" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="39499:39617" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="39666:39781" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="39840:40029" placeholder="select * fro..." />
-                <marker date="1442933669877" expanded="true" signature="40323:40415" placeholder="update [mark..." />
-                <marker date="1442933669877" expanded="true" signature="40631:40731" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="40838:41283" placeholder="SELECT p.aca..." />
-                <marker date="1442933669877" expanded="true" signature="41364:41443" placeholder="select * FRO..." />
-                <marker date="1442933669877" expanded="true" signature="41651:41732" placeholder="select * FRO..." />
-                <marker date="1442933669877" expanded="true" signature="42923:42990" placeholder="delete from ..." />
-                <marker date="1442933669877" expanded="true" signature="43086:43217" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="43623:43754" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="44207:44304" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="44781:44840" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="45042:45137" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="45320:45431" placeholder="select * fro..." />
-                <marker date="1442933669877" expanded="true" signature="46477:46671" placeholder="insert into ..." />
-                <marker date="1442933669877" expanded="true" signature="46734:46824" placeholder="update [MARK..." />
-                <marker date="1442933669877" expanded="true" signature="46903:47041" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="47564:47629" placeholder="SELECT usuar..usuariosDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="48036:48168" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="48364:48420" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="48562:48665" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="50094:50159" placeholder="SELECT usuar..usuariosDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="50598:50823" placeholder="UPDATE dbo.u..." />
-                <marker date="1442933669877" expanded="true" signature="50897:51026" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="51610:51672" placeholder="select * fro..usuariosDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="52142:52238" placeholder="UPDATE dbo.u..." />
-                <marker date="1442933669877" expanded="true" signature="52295:52390" placeholder="UPDATE dbo.u..." />
-                <marker date="1442933669877" expanded="true" signature="53355:53444" placeholder="UPDATE dbo.u..." />
-                <marker date="1442933669877" expanded="true" signature="54123:54228" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="55078:55259" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="55332:55432" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="55848:55962" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="56034:56132" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="56835:56988" placeholder="update dbo.m..." />
-                <marker date="1442933669877" expanded="true" signature="57043:57221" placeholder="update dbo.m..." />
-                <marker date="1442933669877" expanded="true" signature="57318:57423" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="57961:58017" placeholder="select * fro..brindesDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="58379:58491" placeholder="update dbo.b..." />
-                <marker date="1442933669877" expanded="true" signature="58553:58686" placeholder="update dbo.b..." />
-                <marker date="1442933669877" expanded="true" signature="58786:58895" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="59472:59670" placeholder="insert into ..." />
-                <marker date="1442933669877" expanded="true" signature="59764:59825" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-                <marker date="1442933669877" expanded="true" signature="59894:59999" placeholder="SELECT * FRO..." />
-                <marker date="1442933669877" expanded="true" signature="60480:60574" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="61022:61210" placeholder="insert into ..." />
-                <marker date="1442933669877" expanded="true" signature="61297:61391" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="61835:62018" placeholder="update lojas..." />
-                <marker date="1442933669877" expanded="true" signature="62244:62338" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="63537:63732" placeholder="insert into ..." />
-                <marker date="1442933669877" expanded="true" signature="63945:64139" placeholder="insert into ..." />
-                <marker date="1442933669877" expanded="true" signature="64469:64481" placeholder="insert into ..." />
-                <marker date="1442933669877" expanded="true" signature="64469:64679" placeholder="insert into ..." />
-                <marker date="1442933669877" expanded="true" signature="64893:64905" placeholder="insert into ..." />
-                <marker date="1442933669877" expanded="true" signature="64893:65103" placeholder="insert into ..." />
-                <marker date="1442933669877" expanded="true" signature="65431:65625" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="65845:66039" placeholder="INSERT INTO ..." />
-                <marker date="1442933669877" expanded="true" signature="66263:66457" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="583:970" placeholder="..." />
+                <marker date="1443126596891" expanded="true" signature="589:959" placeholder="..." />
+                <marker date="1443126596891" expanded="true" signature="599:739" placeholder="..." />
+                <marker date="1443126596891" expanded="false" signature="612:625" placeholder="..." />
+                <marker date="1443126596891" expanded="false" signature="781:831" placeholder="..." />
+                <marker date="1443126596891" expanded="false" signature="868:918" placeholder="..." />
+                <marker date="1443126596891" expanded="true" signature="1977:2375" placeholder="..." />
+                <marker date="1443126596891" expanded="true" signature="1983:2364" placeholder="..." />
+                <marker date="1443126596891" expanded="true" signature="1993:2133" placeholder="..." />
+                <marker date="1443126596891" expanded="false" signature="2006:2019" placeholder="..." />
+                <marker date="1443126596891" expanded="false" signature="2175:2225" placeholder="..." />
+                <marker date="1443126596891" expanded="false" signature="2273:2323" placeholder="..." />
+                <marker date="1443126596891" expanded="true" signature="2946:3002" placeholder="select * fro..tarefasDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="3131:3246" placeholder="insert into ..." />
+                <marker date="1443126596891" expanded="true" signature="3308:3398" placeholder="update [MARK..." />
+                <marker date="1443126596891" expanded="true" signature="3672:3775" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="3975:4098" placeholder="update [MARK..." />
+                <marker date="1443126596891" expanded="true" signature="4145:4235" placeholder="update [MARK..." />
+                <marker date="1443126596891" expanded="true" signature="4333:4439" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="4762:4996" placeholder="insert into ..." />
+                <marker date="1443126596891" expanded="true" signature="5071:5174" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="5676:5854" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="5928:6038" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="6457:6559" placeholder="delete from ..." />
+                <marker date="1443126596891" expanded="true" signature="6633:6766" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="7263:7422" placeholder="insert into ..." />
+                <marker date="1443126596891" expanded="true" signature="7505:7619" placeholder="select idCom..." />
+                <marker date="1443126596891" expanded="true" signature="7776:7901" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="8846:8950" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="9132:9244" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="9321:9380" placeholder="select * fro..usuariosDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="9539:9635" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="9692:9876" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="10072:10238" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="10382:10534" placeholder="select * FRO..." />
+                <marker date="1443126596891" expanded="true" signature="11795:11888" placeholder="update [MARK..." />
+                <marker date="1443126596891" expanded="true" signature="11964:12077" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="12725:12804" placeholder="select * fro..." />
+                <marker date="1443126596891" expanded="true" signature="14696:14735" placeholder="select * fro..lojasDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="14804:15053" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="15133:15192" placeholder="select * fro..usuariosDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="15395:15455" placeholder="select * fro..usuariosDMTRIX..." />
+                <marker date="1443126596891" expanded="false" signature="16304:16413" placeholder="..." />
+                <marker date="1443126596891" expanded="false" signature="16536:16619" placeholder="..." />
+                <marker date="1443126596891" expanded="false" signature="16711:16814" placeholder="..." />
+                <marker date="1443126596891" expanded="true" signature="16873:16971" placeholder="SELECT idUsu..usuariosDMTRIX..." />
+                <marker date="1443126596891" expanded="false" signature="17573:17692" placeholder="..." />
+                <marker date="1443126596891" expanded="true" signature="18156:18231" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="18992:19241" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="19321:19380" placeholder="select * fro..usuariosDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="19579:19639" placeholder="select * fro..usuariosDMTRIX..." />
+                <marker date="1443126596891" expanded="false" signature="20483:20592" placeholder="..." />
+                <marker date="1443126596891" expanded="false" signature="20715:20798" placeholder="..." />
+                <marker date="1443126596891" expanded="false" signature="20890:20993" placeholder="..." />
+                <marker date="1443126596891" expanded="true" signature="21052:21150" placeholder="SELECT idUsu..usuariosDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="21581:21649" placeholder="SELECT * FRO..." />
+                <marker date="1443126596891" expanded="false" signature="21981:22100" placeholder="..." />
+                <marker date="1443126596891" expanded="true" signature="22564:22642" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="23235:23325" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="23389:23535" placeholder="select * fro..." />
+                <marker date="1443126596891" expanded="true" signature="23660:23760" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="23924:24004" placeholder="select * fro..." />
+                <marker date="1443126596891" expanded="true" signature="24983:25058" placeholder="select * fro..." />
+                <marker date="1443126596891" expanded="true" signature="25190:25257" placeholder="select * fro..ControleAprovacoesDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="25384:25477" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="25603:25682" placeholder="select * fro..." />
+                <marker date="1443126596891" expanded="true" signature="26132:26240" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="26295:26462" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="26517:26654" placeholder="insert into ..." />
+                <marker date="1443126596891" expanded="true" signature="27186:27279" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="27399:27519" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="28103:28196" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="28244:28399" placeholder="insert into ..." />
+                <marker date="1443126596891" expanded="true" signature="28510:28631" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="29031:29124" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="29171:29331" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="29418:29538" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="29617:29732" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="30100:30193" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="30240:30408" placeholder="insert into ..." />
+                <marker date="1443126596891" expanded="true" signature="30519:30635" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="31438:31508" placeholder="update Pedid..." />
+                <marker date="1443126596891" expanded="true" signature="31582:31714" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="32249:32414" placeholder="update Pedid..." />
+                <marker date="1443126596891" expanded="true" signature="32485:32564" placeholder="select * fro..." />
+                <marker date="1443126596891" expanded="true" signature="32910:32969" placeholder="select * fro..PedidoDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="33117:33242" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="33325:33378" placeholder="select * fro..PedidoDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="33737:33830" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="34130:34254" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="34364:34503" placeholder="select * fro..." />
+                <marker date="1443126596891" expanded="true" signature="34704:34764" placeholder="select * fro..usuariosDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="34949:35002" placeholder="select * fro..PedidoDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="35934:36054" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="36596:36775" placeholder="update dbo.P..." />
+                <marker date="1443126596891" expanded="true" signature="36849:36976" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="37898:38153" placeholder="insert into ..." />
+                <marker date="1443126596891" expanded="true" signature="38607:38755" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="39221:39375" placeholder="insert into ..." />
+                <marker date="1443126596891" expanded="true" signature="39453:39569" placeholder="select idCom..." />
+                <marker date="1443126596891" expanded="true" signature="39709:39827" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="39911:40029" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="40078:40193" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="40252:40441" placeholder="select * fro..." />
+                <marker date="1443126596891" expanded="true" signature="40735:40827" placeholder="update [mark..." />
+                <marker date="1443126596891" expanded="true" signature="41043:41143" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="41250:41695" placeholder="SELECT p.aca..." />
+                <marker date="1443126596891" expanded="true" signature="41776:41855" placeholder="select * FRO..." />
+                <marker date="1443126596891" expanded="true" signature="42063:42144" placeholder="select * FRO..." />
+                <marker date="1443126596891" expanded="true" signature="43335:43402" placeholder="delete from ..." />
+                <marker date="1443126596891" expanded="true" signature="43498:43629" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="44035:44166" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="44619:44716" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="45193:45252" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="45454:45549" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="45732:45843" placeholder="select * fro..." />
+                <marker date="1443126596891" expanded="true" signature="46889:47083" placeholder="insert into ..." />
+                <marker date="1443126596891" expanded="true" signature="47146:47236" placeholder="update [MARK..." />
+                <marker date="1443126596891" expanded="true" signature="47315:47453" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="47976:48041" placeholder="SELECT usuar..usuariosDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="48448:48580" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="48776:48832" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="48974:49077" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="50506:50571" placeholder="SELECT usuar..usuariosDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="51010:51235" placeholder="UPDATE dbo.u..." />
+                <marker date="1443126596891" expanded="true" signature="51309:51438" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="52022:52084" placeholder="select * fro..usuariosDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="52555:52651" placeholder="UPDATE dbo.u..." />
+                <marker date="1443126596891" expanded="true" signature="52708:52803" placeholder="UPDATE dbo.u..." />
+                <marker date="1443126596891" expanded="true" signature="53750:53839" placeholder="UPDATE dbo.u..." />
+                <marker date="1443126596891" expanded="true" signature="54475:54580" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="55430:55611" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="55684:55784" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="56200:56314" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="56386:56484" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="57187:57340" placeholder="update dbo.m..." />
+                <marker date="1443126596891" expanded="true" signature="57395:57573" placeholder="update dbo.m..." />
+                <marker date="1443126596891" expanded="true" signature="57670:57775" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="58313:58369" placeholder="select * fro..brindesDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="58731:58843" placeholder="update dbo.b..." />
+                <marker date="1443126596891" expanded="true" signature="58905:59038" placeholder="update dbo.b..." />
+                <marker date="1443126596891" expanded="true" signature="59138:59247" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="59824:60022" placeholder="insert into ..." />
+                <marker date="1443126596891" expanded="true" signature="60116:60177" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+                <marker date="1443126596891" expanded="true" signature="60246:60351" placeholder="SELECT * FRO..." />
+                <marker date="1443126596891" expanded="true" signature="60832:60926" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="61374:61562" placeholder="insert into ..." />
+                <marker date="1443126596891" expanded="true" signature="61649:61743" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="62187:62370" placeholder="update lojas..." />
+                <marker date="1443126596891" expanded="true" signature="62596:62690" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="63903:64108" placeholder="insert into ..." />
+                <marker date="1443126596891" expanded="true" signature="64328:64533" placeholder="insert into ..." />
+                <marker date="1443126596891" expanded="true" signature="64857:65051" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="65271:65465" placeholder="INSERT INTO ..." />
+                <marker date="1443126596891" expanded="true" signature="65689:65883" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filaBrindes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filaBrindes.php">
+      <file leaf-file-name="comprasBrindes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comprasBrindes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-31.192308" vertical-offset="1807" max-vertical-offset="4964">
-              <caret line="154" column="7" selection-start-line="154" selection-start-column="7" selection-end-line="154" selection-end-column="7" />
+            <state vertical-scroll-proportion="-28.115385" vertical-offset="2397" max-vertical-offset="3570">
+              <caret line="184" column="109" selection-start-line="184" selection-start-column="109" selection-end-line="184" selection-end-column="109" />
               <folding>
-                <marker date="1441913242119" expanded="true" signature="392:457" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-                <marker date="1441913242119" expanded="true" signature="2896:3053" placeholder="select disti..PedidoBrindesDMTRIX..." />
-                <marker date="1441913242119" expanded="true" signature="3487:3644" placeholder="select disti..PedidoBrindesDMTRIX..." />
-                <marker date="1441913242119" expanded="true" signature="4081:4238" placeholder="select disti..PedidoBrindesDMTRIX..." />
-                <marker date="1441913242119" expanded="true" signature="4674:4848" placeholder="select disti..PedidoBrindesDMTRIX..." />
+                <marker date="1443117973268" expanded="true" signature="1300:1365" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+                <marker date="1443117973268" expanded="true" signature="1461:1565" placeholder="select * fro..." />
+                <marker date="1443117973268" expanded="true" signature="1771:1847" placeholder="select * fro..." />
+                <marker date="1443117973268" expanded="true" signature="4811:4915" placeholder="select * fro..." />
+                <marker date="1443117973268" expanded="true" signature="5123:5273" placeholder="SELECT * FRO..." />
+                <marker date="1443117973268" expanded="true" signature="7230:7407" placeholder="select p.idC..brindesDMTRIX..." />
               </folding>
             </state>
           </provider>
@@ -219,16 +216,23 @@
       <file leaf-file-name="controlePedidos.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controle/controlePedidos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="51" max-vertical-offset="1734">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state vertical-scroll-proportion="-24.192308" vertical-offset="306" max-vertical-offset="1768">
+              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="89" />
               <folding>
-                <marker date="1441289186634" expanded="true" signature="212:282" placeholder="update Pedid..." />
-                <marker date="1441289186634" expanded="true" signature="352:407" placeholder="select * fro..PedidoDMTRIX..." />
-                <marker date="1441289186634" expanded="true" signature="537:611" placeholder="update Pedid..." />
-                <marker date="1441289186634" expanded="true" signature="722:884" placeholder="INSERT INTO ..." />
-                <marker date="1441289186634" expanded="true" signature="1139:1194" placeholder="select * fro..PedidoDMTRIX..." />
-                <marker date="1441289186634" expanded="true" signature="1437:1496" placeholder="select * fro..usuariosDMTRIX..." />
-                <marker date="1441289186634" expanded="true" signature="1732:1900" placeholder="update [mark..." />
+                <marker date="1443039222051" expanded="true" signature="212:282" placeholder="update Pedid..." />
+                <marker date="1443039222051" expanded="true" signature="352:407" placeholder="select * fro..PedidoDMTRIX..." />
+                <marker date="1443039222051" expanded="true" signature="537:611" placeholder="update Pedid..." />
+                <marker date="1443039222051" expanded="true" signature="722:884" placeholder="INSERT INTO ..." />
+                <marker date="1443039222051" expanded="true" signature="1139:1194" placeholder="select * fro..PedidoDMTRIX..." />
+                <marker date="1443039222051" expanded="true" signature="1437:1496" placeholder="select * fro..usuariosDMTRIX..." />
+                <marker date="1443039222051" expanded="true" signature="1732:1900" placeholder="update [mark..." />
+                <marker date="1443039222051" expanded="true" signature="1944:2126" placeholder="INSERT INTO ..." />
+                <marker date="1443039222051" expanded="true" signature="2348:2419" placeholder="update Pedid..." />
+                <marker date="1443039222051" expanded="true" signature="2474:2529" placeholder="select * fro..PedidoDMTRIX..." />
+                <marker date="1443039222051" expanded="true" signature="2865:2946" placeholder="update Compr..." />
+                <marker date="1443039222051" expanded="true" signature="3021:3076" placeholder="select * fro..PedidoDMTRIX..." />
+                <marker date="1443039222051" expanded="true" signature="3206:3288" placeholder="update Pedid..." />
+                <marker date="1443039222051" expanded="true" signature="3441:3550" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -238,37 +242,14 @@
         <entry file="file://$PROJECT_DIR$/controle/cancelarBrindes.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-22.76923" vertical-offset="71" max-vertical-offset="952">
-              <caret line="39" column="102" selection-start-line="39" selection-start-column="102" selection-end-line="39" selection-end-column="102" />
+              <caret line="39" column="96" selection-start-line="39" selection-start-column="96" selection-end-line="39" selection-end-column="96" />
               <folding>
-                <marker date="1442408892248" expanded="true" signature="181:243" placeholder="select * fro..PedidoBrindesDMTRIX..." />
-                <marker date="1442408892248" expanded="true" signature="414:472" placeholder="select * fro..brindesDMTRIX..." />
-                <marker date="1442408892248" expanded="true" signature="612:671" placeholder="select * fro..usuariosDMTRIX..." />
-                <marker date="1442408892248" expanded="true" signature="924:1005" placeholder="update usuar..." />
-                <marker date="1442408892248" expanded="true" signature="1050:1155" placeholder="update Pedid..." />
-                <marker date="1442408892248" expanded="true" signature="1203:1283" placeholder="update brind..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/scripts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="9208" max-vertical-offset="11016">
-              <caret line="600" column="0" selection-start-line="600" selection-start-column="0" selection-end-line="600" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="compra-finalizada.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/compra-finalizada.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="901">
-              <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
-              <folding>
-                <marker date="1442586313914" expanded="true" signature="550:615" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-                <marker date="1442586313914" expanded="true" signature="717:896" placeholder="select top 1..." />
+                <marker date="1443039895466" expanded="true" signature="181:243" placeholder="select * fro..PedidoBrindesDMTRIX..." />
+                <marker date="1443039895466" expanded="true" signature="414:472" placeholder="select * fro..brindesDMTRIX..." />
+                <marker date="1443039895466" expanded="true" signature="612:671" placeholder="select * fro..usuariosDMTRIX..." />
+                <marker date="1443039895466" expanded="true" signature="924:1005" placeholder="update usuar..." />
+                <marker date="1443039895466" expanded="true" signature="1050:1155" placeholder="update Pedid..." />
+                <marker date="1443039895466" expanded="true" signature="1203:1283" placeholder="update brind..." />
               </folding>
             </state>
           </provider>
@@ -278,7 +259,7 @@
         <entry file="file://$PROJECT_DIR$/administrar-brinde.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="424" max-vertical-offset="2397">
-              <caret line="60" column="257" selection-start-line="60" selection-start-column="257" selection-end-line="60" selection-end-column="257" />
+              <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
               <folding>
                 <marker date="1442592142663" expanded="true" signature="241:306" placeholder="SELECT * FRO..usuariosDMTRIX..." />
                 <marker date="1442592142663" expanded="true" signature="2286:2333" placeholder="SELECT * FRO..brindesDMTRIX..." />
@@ -290,12 +271,27 @@
       <file leaf-file-name="distribuicao-de-budget.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/distribuicao-de-budget.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693" vertical-offset="561" max-vertical-offset="3315">
-              <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3485">
+              <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
               <folding>
-                <marker date="1442944576756" expanded="true" signature="392:457" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-                <marker date="1442944576756" expanded="true" signature="1294:1390" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-                <marker date="1442944576756" expanded="true" signature="2717:2828" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+                <marker date="1443008567147" expanded="true" signature="392:457" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+                <marker date="1443008567147" expanded="true" signature="1294:1390" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+                <marker date="1443008567147" expanded="true" signature="3000:3111" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extrato.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extrato.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1941" max-vertical-offset="3536">
+              <caret line="151" column="40" selection-start-line="151" selection-start-column="40" selection-end-line="151" selection-end-column="40" />
+              <folding>
+                <marker date="1443009923551" expanded="true" signature="392:457" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+                <marker date="1443009923551" expanded="true" signature="1222:1318" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+                <marker date="1443009923551" expanded="true" signature="1542:1594" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+                <marker date="1443009923551" expanded="true" signature="2633:2744" placeholder="SELECT * FRO..usuariosDMTRIX..." />
               </folding>
             </state>
           </provider>
@@ -304,11 +300,41 @@
       <file leaf-file-name="buscaUsuarios.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controle/buscaUsuarios.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6153846" vertical-offset="1045" max-vertical-offset="2108">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1158" max-vertical-offset="2040">
+              <caret line="97" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
               <folding>
-                <marker date="1442948019636" expanded="true" signature="248:332" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-                <marker date="1442948019636" expanded="true" signature="388:471" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+                <marker date="1442949646449" expanded="true" signature="248:332" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+                <marker date="1442949646449" expanded="true" signature="388:471" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buscaExtrato.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controle/buscaExtrato.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="527">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <marker date="1443019829931" expanded="true" signature="248:291" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+                <marker date="1443019829931" expanded="true" signature="248:319" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trade-home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trade-home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4373" max-vertical-offset="5814">
+              <caret line="295" column="55" selection-start-line="295" selection-start-column="55" selection-end-line="295" selection-end-column="55" />
+              <folding>
+                <marker date="1443014074279" expanded="true" signature="392:457" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+                <marker date="1443014074279" expanded="true" signature="2823:3048" placeholder="select disti..tarefasDMTRIX..." />
+                <marker date="1443014074279" expanded="true" signature="3221:3298" placeholder="select * fro..PedidoDMTRIX..." />
+                <marker date="1443014074279" expanded="true" signature="4643:4889" placeholder="select disti..tarefasDMTRIX..." />
+                <marker date="1443014074279" expanded="true" signature="5715:5939" placeholder="select disti..tarefasDMTRIX..." />
+                <marker date="1443014074279" expanded="true" signature="6698:6940" placeholder="select disti..tarefasDMTRIX..." />
               </folding>
             </state>
           </provider>
@@ -324,9 +350,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/boxResumo.php" />
-        <option value="$PROJECT_DIR$/finalizar.php" />
-        <option value="$PROJECT_DIR$/busca.php" />
         <option value="$PROJECT_DIR$/cadastro-lojas.php" />
         <option value="$USER_HOME$/Documents/funcoes.php" />
         <option value="$PROJECT_DIR$/historico-detalhado.php" />
@@ -338,10 +361,7 @@
         <option value="$PROJECT_DIR$/aprovacao-reprovacao.php" />
         <option value="$PROJECT_DIR$/controlePedidos.php" />
         <option value="$PROJECT_DIR$/exibirFila.php" />
-        <option value="$PROJECT_DIR$/controle/controlePedidos.php" />
-        <option value="$PROJECT_DIR$/controle/exibirJob.php" />
         <option value="$PROJECT_DIR$/controle/prioridades.php" />
-        <option value="$PROJECT_DIR$/trade-home.php" />
         <option value="$PROJECT_DIR$/brindes/baixar.php" />
         <option value="$PROJECT_DIR$/brindes/brindes.php" />
         <option value="$PROJECT_DIR$/brindes/cadastrar-dicas.php" />
@@ -363,18 +383,24 @@
         <option value="$PROJECT_DIR$/../dmOdonto/sorteio.html" />
         <option value="$PROJECT_DIR$/brindes.php" />
         <option value="$PROJECT_DIR$/topo.php" />
-        <option value="$PROJECT_DIR$/comprasBrindes.php" />
         <option value="$PROJECT_DIR$/controle/exibirBrindes.php" />
         <option value="$PROJECT_DIR$/controle/delegarBrindes.php" />
-        <option value="$PROJECT_DIR$/controle/cancelarBrindes.php" />
         <option value="$PROJECT_DIR$/fila.php" />
         <option value="$PROJECT_DIR$/compra-finalizada.php" />
         <option value="$PROJECT_DIR$/teste.php" />
         <option value="$PROJECT_DIR$/administrar-brinde.php" />
-        <option value="$PROJECT_DIR$/js/scripts.js" />
-        <option value="$PROJECT_DIR$/funcoes.php" />
-        <option value="$PROJECT_DIR$/distribuicao-de-budget.php" />
         <option value="$PROJECT_DIR$/controle/buscaUsuarios.php" />
+        <option value="$PROJECT_DIR$/js/scripts.js" />
+        <option value="$PROJECT_DIR$/distribuicao-de-budget.php" />
+        <option value="$PROJECT_DIR$/extrato.php" />
+        <option value="$PROJECT_DIR$/salvarArte.php" />
+        <option value="$PROJECT_DIR$/trade-home.php" />
+        <option value="$PROJECT_DIR$/controle/exibirJob.php" />
+        <option value="$PROJECT_DIR$/controle/buscaExtrato.php" />
+        <option value="$PROJECT_DIR$/controle/controlePedidos.php" />
+        <option value="$PROJECT_DIR$/controle/cancelarBrindes.php" />
+        <option value="$PROJECT_DIR$/comprasBrindes.php" />
+        <option value="$PROJECT_DIR$/funcoes.php" />
       </list>
     </option>
   </component>
@@ -430,12 +456,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dmtrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dmtrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/repositorio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../facetwitter" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistoryKey" value="git&#9;null&#9;null&#10;composer&#9;ACTION&#9;com.jetbrains.php.composer.ComposerInitSupportAction&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;inter&#9;null&#9;null&#10;row&#9;ACTION&#9;GotoRow&#10;diale&#9;null&#9;null&#10;sql&#9;null&#9;null&#10;customize&#9;null&#9;null" />
     <property name="options.lastSelected" value="settings.github" />
@@ -516,7 +556,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -525,7 +565,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12526652" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11567164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -564,20 +604,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/finalizar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="626" max-vertical-offset="1530">
-          <caret line="53" column="76" selection-start-line="53" selection-start-column="76" selection-end-line="53" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/finalizar-compra.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="2788">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/historico-detalhado.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.030303" vertical-offset="153" max-vertical-offset="2142">
@@ -631,13 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="6069">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/salvarArte.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="510">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -725,13 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controle/exibirJob.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5264977" vertical-offset="2600" max-vertical-offset="8024">
-          <caret line="75" column="51" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Beneficios/cliente_premiado/Premiado.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48284024" vertical-offset="969" max-vertical-offset="9010">
@@ -750,13 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13492064" vertical-offset="0" max-vertical-offset="882">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trade-home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.027618" vertical-offset="0" max-vertical-offset="5814">
-          <caret line="257" column="28" selection-start-line="257" selection-start-column="28" selection-end-line="257" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -809,13 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comprasBrindes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2589" max-vertical-offset="3485">
-          <caret line="179" column="104" selection-start-line="179" selection-start-column="104" selection-end-line="179" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controle/exibirBrindes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="951" max-vertical-offset="1972">
@@ -830,13 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controle/exibirFila.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2939" max-vertical-offset="6613">
-          <caret line="306" column="90" selection-start-line="306" selection-start-column="90" selection-end-line="306" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="908">
@@ -845,25 +836,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrar-brinde.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="424" max-vertical-offset="2397">
-          <caret line="60" column="257" selection-start-line="60" selection-start-column="257" selection-end-line="60" selection-end-column="257" />
-          <folding>
-            <marker date="1442592142663" expanded="true" signature="241:306" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-            <marker date="1442592142663" expanded="true" signature="2286:2333" placeholder="SELECT * FRO..brindesDMTRIX..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/compra-finalizada.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="901">
           <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
-          <folding>
-            <marker date="1442586313914" expanded="true" signature="550:615" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-            <marker date="1442586313914" expanded="true" signature="717:896" placeholder="select top 1..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,266 +850,334 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="9208" max-vertical-offset="11016">
-          <caret line="600" column="0" selection-start-line="600" selection-start-column="0" selection-end-line="600" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fila.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.319662" vertical-offset="6568" max-vertical-offset="12410">
-          <caret line="597" column="27" selection-start-line="597" selection-start-column="27" selection-end-line="597" selection-end-column="27" />
-          <folding>
-            <marker date="1441712454919" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-            <marker date="1441712454919" expanded="true" signature="-1:-1" placeholder="SELECT count..PedidoDMTRIX..." />
-            <marker date="1441712454919" expanded="true" signature="-1:-1" placeholder="SELECT count..PedidoDMTRIX..." />
-            <marker date="1441712454919" expanded="true" signature="-1:-1" placeholder="select disti..ComprasDMTRIX..." />
-            <marker date="1441712454919" expanded="true" signature="-1:-1" placeholder="select disti..ComprasDMTRIX..." />
-            <marker date="1441712454919" expanded="true" signature="-1:-1" placeholder="select disti..ComprasDMTRIX..." />
-            <marker date="1441712454919" expanded="true" signature="-1:-1" placeholder="select disti..ComprasDMTRIX..." />
-            <marker date="1441712454919" expanded="true" signature="-1:-1" placeholder="select DISTI..." />
-            <marker date="1441712454919" expanded="true" signature="-1:-1" placeholder="select DISTI..tarefasDMTRIX..." />
-            <marker date="1441712454919" expanded="true" signature="-1:-1" placeholder="select DISTI..." />
-            <marker date="1441712454919" expanded="true" signature="-1:-1" placeholder="select DISTI..tarefasDMTRIX..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controle/cancelarBrindes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.76923" vertical-offset="71" max-vertical-offset="952">
-          <caret line="39" column="102" selection-start-line="39" selection-start-column="102" selection-end-line="39" selection-end-column="102" />
-          <folding>
-            <marker date="1442408892248" expanded="true" signature="181:243" placeholder="select * fro..PedidoBrindesDMTRIX..." />
-            <marker date="1442408892248" expanded="true" signature="414:472" placeholder="select * fro..brindesDMTRIX..." />
-            <marker date="1442408892248" expanded="true" signature="612:671" placeholder="select * fro..usuariosDMTRIX..." />
-            <marker date="1442408892248" expanded="true" signature="924:1005" placeholder="update usuar..." />
-            <marker date="1442408892248" expanded="true" signature="1050:1155" placeholder="update Pedid..." />
-            <marker date="1442408892248" expanded="true" signature="1203:1283" placeholder="update brind..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controle/controlePedidos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1734">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding>
-            <marker date="1441289186634" expanded="true" signature="212:282" placeholder="update Pedid..." />
-            <marker date="1441289186634" expanded="true" signature="352:407" placeholder="select * fro..PedidoDMTRIX..." />
-            <marker date="1441289186634" expanded="true" signature="537:611" placeholder="update Pedid..." />
-            <marker date="1441289186634" expanded="true" signature="722:884" placeholder="INSERT INTO ..." />
-            <marker date="1441289186634" expanded="true" signature="1139:1194" placeholder="select * fro..PedidoDMTRIX..." />
-            <marker date="1441289186634" expanded="true" signature="1437:1496" placeholder="select * fro..usuariosDMTRIX..." />
-            <marker date="1441289186634" expanded="true" signature="1732:1900" placeholder="update [mark..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filaBrindes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-31.192308" vertical-offset="1807" max-vertical-offset="4964">
           <caret line="154" column="7" selection-start-line="154" selection-start-column="7" selection-end-line="154" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7695" max-vertical-offset="11067">
+          <caret line="522" column="0" selection-start-line="522" selection-start-column="0" selection-end-line="522" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controle/buscaUsuarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1158" max-vertical-offset="2040">
+          <caret line="97" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
           <folding>
-            <marker date="1441913242119" expanded="true" signature="392:457" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-            <marker date="1441913242119" expanded="true" signature="2896:3053" placeholder="select disti..PedidoBrindesDMTRIX..." />
-            <marker date="1441913242119" expanded="true" signature="3487:3644" placeholder="select disti..PedidoBrindesDMTRIX..." />
-            <marker date="1441913242119" expanded="true" signature="4081:4238" placeholder="select disti..PedidoBrindesDMTRIX..." />
-            <marker date="1441913242119" expanded="true" signature="4674:4848" placeholder="select disti..PedidoBrindesDMTRIX..." />
+            <marker date="1442949646449" expanded="true" signature="248:332" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+            <marker date="1442949646449" expanded="true" signature="388:471" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trade-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4373" max-vertical-offset="5814">
+          <caret line="295" column="55" selection-start-line="295" selection-start-column="55" selection-end-line="295" selection-end-column="55" />
+          <folding>
+            <marker date="1443014074279" expanded="true" signature="392:457" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+            <marker date="1443014074279" expanded="true" signature="2823:3048" placeholder="select disti..tarefasDMTRIX..." />
+            <marker date="1443014074279" expanded="true" signature="3221:3298" placeholder="select * fro..PedidoDMTRIX..." />
+            <marker date="1443014074279" expanded="true" signature="4643:4889" placeholder="select disti..tarefasDMTRIX..." />
+            <marker date="1443014074279" expanded="true" signature="5715:5939" placeholder="select disti..tarefasDMTRIX..." />
+            <marker date="1443014074279" expanded="true" signature="6698:6940" placeholder="select disti..tarefasDMTRIX..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controle/exibirJob.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-109.69231" vertical-offset="2809" max-vertical-offset="8024">
+          <caret line="333" column="70" selection-start-line="333" selection-start-column="70" selection-end-line="333" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salvarArte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4239905" vertical-offset="0" max-vertical-offset="842">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controle/buscaExtrato.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="527">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1443019829931" expanded="true" signature="248:291" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+            <marker date="1443019829931" expanded="true" signature="248:319" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extrato.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1941" max-vertical-offset="3536">
+          <caret line="151" column="40" selection-start-line="151" selection-start-column="40" selection-end-line="151" selection-end-column="40" />
+          <folding>
+            <marker date="1443009923551" expanded="true" signature="392:457" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+            <marker date="1443009923551" expanded="true" signature="1222:1318" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+            <marker date="1443009923551" expanded="true" signature="1542:1594" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+            <marker date="1443009923551" expanded="true" signature="2633:2744" placeholder="SELECT * FRO..usuariosDMTRIX..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/distribuicao-de-budget.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693" vertical-offset="561" max-vertical-offset="3315">
-          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3485">
+          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
           <folding>
-            <marker date="1442944576756" expanded="true" signature="392:457" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-            <marker date="1442944576756" expanded="true" signature="1294:1390" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-            <marker date="1442944576756" expanded="true" signature="2717:2828" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+            <marker date="1443008567147" expanded="true" signature="392:457" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+            <marker date="1443008567147" expanded="true" signature="1294:1390" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+            <marker date="1443008567147" expanded="true" signature="3000:3111" placeholder="SELECT * FRO..usuariosDMTRIX..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controle/buscaUsuarios.php">
+    <entry file="file://$PROJECT_DIR$/administrar-brinde.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6153846" vertical-offset="1045" max-vertical-offset="2108">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="424" max-vertical-offset="2397">
+          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
           <folding>
-            <marker date="1442948019636" expanded="true" signature="248:332" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-            <marker date="1442948019636" expanded="true" signature="388:471" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+            <marker date="1442592142663" expanded="true" signature="241:306" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+            <marker date="1442592142663" expanded="true" signature="2286:2333" placeholder="SELECT * FRO..brindesDMTRIX..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controle/exibirFila.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-200.07692" vertical-offset="0" max-vertical-offset="6613">
+          <caret line="306" column="90" selection-start-line="306" selection-start-column="90" selection-end-line="306" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fila.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="10.752304" vertical-offset="816" max-vertical-offset="12410">
+          <caret line="597" column="27" selection-start-line="597" selection-start-column="27" selection-end-line="597" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controle/cancelarBrindes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.76923" vertical-offset="71" max-vertical-offset="952">
+          <caret line="39" column="96" selection-start-line="39" selection-start-column="96" selection-end-line="39" selection-end-column="96" />
+          <folding>
+            <marker date="1443039895466" expanded="true" signature="181:243" placeholder="select * fro..PedidoBrindesDMTRIX..." />
+            <marker date="1443039895466" expanded="true" signature="414:472" placeholder="select * fro..brindesDMTRIX..." />
+            <marker date="1443039895466" expanded="true" signature="612:671" placeholder="select * fro..usuariosDMTRIX..." />
+            <marker date="1443039895466" expanded="true" signature="924:1005" placeholder="update usuar..." />
+            <marker date="1443039895466" expanded="true" signature="1050:1155" placeholder="update Pedid..." />
+            <marker date="1443039895466" expanded="true" signature="1203:1283" placeholder="update brind..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comprasBrindes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.115385" vertical-offset="2397" max-vertical-offset="3570">
+          <caret line="184" column="109" selection-start-line="184" selection-start-column="109" selection-end-line="184" selection-end-column="109" />
+          <folding>
+            <marker date="1443117973268" expanded="true" signature="1300:1365" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+            <marker date="1443117973268" expanded="true" signature="1461:1565" placeholder="select * fro..." />
+            <marker date="1443117973268" expanded="true" signature="1771:1847" placeholder="select * fro..." />
+            <marker date="1443117973268" expanded="true" signature="4811:4915" placeholder="select * fro..." />
+            <marker date="1443117973268" expanded="true" signature="5123:5273" placeholder="SELECT * FRO..." />
+            <marker date="1443117973268" expanded="true" signature="7230:7407" placeholder="select p.idC..brindesDMTRIX..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controle/controlePedidos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.192308" vertical-offset="306" max-vertical-offset="1768">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="89" />
+          <folding>
+            <marker date="1443039222051" expanded="true" signature="212:282" placeholder="update Pedid..." />
+            <marker date="1443039222051" expanded="true" signature="352:407" placeholder="select * fro..PedidoDMTRIX..." />
+            <marker date="1443039222051" expanded="true" signature="537:611" placeholder="update Pedid..." />
+            <marker date="1443039222051" expanded="true" signature="722:884" placeholder="INSERT INTO ..." />
+            <marker date="1443039222051" expanded="true" signature="1139:1194" placeholder="select * fro..PedidoDMTRIX..." />
+            <marker date="1443039222051" expanded="true" signature="1437:1496" placeholder="select * fro..usuariosDMTRIX..." />
+            <marker date="1443039222051" expanded="true" signature="1732:1900" placeholder="update [mark..." />
+            <marker date="1443039222051" expanded="true" signature="1944:2126" placeholder="INSERT INTO ..." />
+            <marker date="1443039222051" expanded="true" signature="2348:2419" placeholder="update Pedid..." />
+            <marker date="1443039222051" expanded="true" signature="2474:2529" placeholder="select * fro..PedidoDMTRIX..." />
+            <marker date="1443039222051" expanded="true" signature="2865:2946" placeholder="update Compr..." />
+            <marker date="1443039222051" expanded="true" signature="3021:3076" placeholder="select * fro..PedidoDMTRIX..." />
+            <marker date="1443039222051" expanded="true" signature="3206:3288" placeholder="update Pedid..." />
+            <marker date="1443039222051" expanded="true" signature="3441:3550" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/funcoes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21190476" vertical-offset="26053" max-vertical-offset="27982">
-          <caret line="1543" column="24" selection-start-line="1543" selection-start-column="9" selection-end-line="1543" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.15119047" vertical-offset="11110" max-vertical-offset="27642">
+          <caret line="661" column="26" selection-start-line="661" selection-start-column="20" selection-end-line="661" selection-end-column="26" />
           <folding>
-            <marker date="1442933669877" expanded="true" signature="583:970" placeholder="..." />
-            <marker date="1442933669877" expanded="true" signature="589:959" placeholder="..." />
-            <marker date="1442933669877" expanded="true" signature="599:739" placeholder="..." />
-            <marker date="1442933669877" expanded="false" signature="612:625" placeholder="..." />
-            <marker date="1442933669877" expanded="false" signature="781:831" placeholder="..." />
-            <marker date="1442933669877" expanded="false" signature="868:918" placeholder="..." />
-            <marker date="1442933669877" expanded="true" signature="1977:2375" placeholder="..." />
-            <marker date="1442933669877" expanded="true" signature="1983:2364" placeholder="..." />
-            <marker date="1442933669877" expanded="true" signature="1993:2133" placeholder="..." />
-            <marker date="1442933669877" expanded="false" signature="2006:2019" placeholder="..." />
-            <marker date="1442933669877" expanded="false" signature="2175:2225" placeholder="..." />
-            <marker date="1442933669877" expanded="false" signature="2273:2323" placeholder="..." />
-            <marker date="1442933669877" expanded="true" signature="2946:3002" placeholder="select * fro..tarefasDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="3131:3246" placeholder="insert into ..." />
-            <marker date="1442933669877" expanded="true" signature="3308:3398" placeholder="update [MARK..." />
-            <marker date="1442933669877" expanded="true" signature="3672:3775" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="3975:4098" placeholder="update [MARK..." />
-            <marker date="1442933669877" expanded="true" signature="4145:4235" placeholder="update [MARK..." />
-            <marker date="1442933669877" expanded="true" signature="4333:4439" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="4762:4996" placeholder="insert into ..." />
-            <marker date="1442933669877" expanded="true" signature="5071:5174" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="5676:5854" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="5928:6038" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="6457:6559" placeholder="delete from ..." />
-            <marker date="1442933669877" expanded="true" signature="6633:6766" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="7253:7412" placeholder="insert into ..." />
-            <marker date="1442933669877" expanded="true" signature="7495:7609" placeholder="select idCom..." />
-            <marker date="1442933669877" expanded="true" signature="7766:7891" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="8577:8681" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="8863:8975" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="9052:9111" placeholder="select * fro..usuariosDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="9269:9365" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="9422:9606" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="9797:9963" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="10107:10259" placeholder="select * FRO..." />
-            <marker date="1442933669877" expanded="true" signature="11520:11613" placeholder="update [MARK..." />
-            <marker date="1442933669877" expanded="true" signature="11689:11802" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="12450:12529" placeholder="select * fro..." />
-            <marker date="1442933669877" expanded="true" signature="14421:14460" placeholder="select * fro..lojasDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="14529:14778" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="14858:14917" placeholder="select * fro..usuariosDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="15120:15180" placeholder="select * fro..usuariosDMTRIX..." />
-            <marker date="1442933669877" expanded="false" signature="16029:16138" placeholder="..." />
-            <marker date="1442933669877" expanded="false" signature="16261:16344" placeholder="..." />
-            <marker date="1442933669877" expanded="false" signature="16436:16539" placeholder="..." />
-            <marker date="1442933669877" expanded="true" signature="16598:16696" placeholder="SELECT idUsu..usuariosDMTRIX..." />
-            <marker date="1442933669877" expanded="false" signature="17298:17417" placeholder="..." />
-            <marker date="1442933669877" expanded="true" signature="17881:17956" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="18717:18966" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="19046:19105" placeholder="select * fro..usuariosDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="19304:19364" placeholder="select * fro..usuariosDMTRIX..." />
-            <marker date="1442933669877" expanded="false" signature="20208:20317" placeholder="..." />
-            <marker date="1442933669877" expanded="false" signature="20440:20523" placeholder="..." />
-            <marker date="1442933669877" expanded="false" signature="20615:20718" placeholder="..." />
-            <marker date="1442933669877" expanded="true" signature="20777:20875" placeholder="SELECT idUsu..usuariosDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="21306:21374" placeholder="SELECT * FRO..." />
-            <marker date="1442933669877" expanded="false" signature="21706:21825" placeholder="..." />
-            <marker date="1442933669877" expanded="true" signature="22289:22367" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="22960:23050" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="23114:23260" placeholder="select * fro..." />
-            <marker date="1442933669877" expanded="true" signature="23385:23485" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="23649:23729" placeholder="select * fro..." />
-            <marker date="1442933669877" expanded="true" signature="24708:24783" placeholder="select * fro..." />
-            <marker date="1442933669877" expanded="true" signature="24915:24982" placeholder="select * fro..ControleAprovacoesDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="25109:25202" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="25328:25407" placeholder="select * fro..." />
-            <marker date="1442933669877" expanded="true" signature="25830:25938" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="25993:26160" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="26215:26352" placeholder="insert into ..." />
-            <marker date="1442933669877" expanded="true" signature="26774:26867" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="26987:27107" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="27691:27784" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="27832:27987" placeholder="insert into ..." />
-            <marker date="1442933669877" expanded="true" signature="28098:28219" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="28619:28712" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="28759:28919" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="29006:29126" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="29205:29320" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="29688:29781" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="29828:29996" placeholder="insert into ..." />
-            <marker date="1442933669877" expanded="true" signature="30107:30223" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="31026:31096" placeholder="update Pedid..." />
-            <marker date="1442933669877" expanded="true" signature="31170:31302" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="31837:32002" placeholder="update Pedid..." />
-            <marker date="1442933669877" expanded="true" signature="32073:32152" placeholder="select * fro..." />
-            <marker date="1442933669877" expanded="true" signature="32498:32557" placeholder="select * fro..PedidoDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="32705:32830" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="32913:32966" placeholder="select * fro..PedidoDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="33325:33418" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="33718:33842" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="33952:34091" placeholder="select * fro..." />
-            <marker date="1442933669877" expanded="true" signature="34292:34352" placeholder="select * fro..usuariosDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="34537:34590" placeholder="select * fro..PedidoDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="35522:35642" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="36184:36363" placeholder="update dbo.P..." />
-            <marker date="1442933669877" expanded="true" signature="36437:36564" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="37486:37741" placeholder="insert into ..." />
-            <marker date="1442933669877" expanded="true" signature="38195:38343" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="38809:38963" placeholder="insert into ..." />
-            <marker date="1442933669877" expanded="true" signature="39041:39157" placeholder="select idCom..." />
-            <marker date="1442933669877" expanded="true" signature="39297:39415" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="39499:39617" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="39666:39781" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="39840:40029" placeholder="select * fro..." />
-            <marker date="1442933669877" expanded="true" signature="40323:40415" placeholder="update [mark..." />
-            <marker date="1442933669877" expanded="true" signature="40631:40731" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="40838:41283" placeholder="SELECT p.aca..." />
-            <marker date="1442933669877" expanded="true" signature="41364:41443" placeholder="select * FRO..." />
-            <marker date="1442933669877" expanded="true" signature="41651:41732" placeholder="select * FRO..." />
-            <marker date="1442933669877" expanded="true" signature="42923:42990" placeholder="delete from ..." />
-            <marker date="1442933669877" expanded="true" signature="43086:43217" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="43623:43754" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="44207:44304" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="44781:44840" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="45042:45137" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="45320:45431" placeholder="select * fro..." />
-            <marker date="1442933669877" expanded="true" signature="46477:46671" placeholder="insert into ..." />
-            <marker date="1442933669877" expanded="true" signature="46734:46824" placeholder="update [MARK..." />
-            <marker date="1442933669877" expanded="true" signature="46903:47041" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="47564:47629" placeholder="SELECT usuar..usuariosDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="48036:48168" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="48364:48420" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="48562:48665" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="50094:50159" placeholder="SELECT usuar..usuariosDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="50598:50823" placeholder="UPDATE dbo.u..." />
-            <marker date="1442933669877" expanded="true" signature="50897:51026" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="51610:51672" placeholder="select * fro..usuariosDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="52142:52238" placeholder="UPDATE dbo.u..." />
-            <marker date="1442933669877" expanded="true" signature="52295:52390" placeholder="UPDATE dbo.u..." />
-            <marker date="1442933669877" expanded="true" signature="53355:53444" placeholder="UPDATE dbo.u..." />
-            <marker date="1442933669877" expanded="true" signature="54123:54228" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="55078:55259" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="55332:55432" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="55848:55962" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="56034:56132" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="56835:56988" placeholder="update dbo.m..." />
-            <marker date="1442933669877" expanded="true" signature="57043:57221" placeholder="update dbo.m..." />
-            <marker date="1442933669877" expanded="true" signature="57318:57423" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="57961:58017" placeholder="select * fro..brindesDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="58379:58491" placeholder="update dbo.b..." />
-            <marker date="1442933669877" expanded="true" signature="58553:58686" placeholder="update dbo.b..." />
-            <marker date="1442933669877" expanded="true" signature="58786:58895" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="59472:59670" placeholder="insert into ..." />
-            <marker date="1442933669877" expanded="true" signature="59764:59825" placeholder="SELECT * FRO..usuariosDMTRIX..." />
-            <marker date="1442933669877" expanded="true" signature="59894:59999" placeholder="SELECT * FRO..." />
-            <marker date="1442933669877" expanded="true" signature="60480:60574" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="61022:61210" placeholder="insert into ..." />
-            <marker date="1442933669877" expanded="true" signature="61297:61391" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="61835:62018" placeholder="update lojas..." />
-            <marker date="1442933669877" expanded="true" signature="62244:62338" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="63537:63732" placeholder="insert into ..." />
-            <marker date="1442933669877" expanded="true" signature="63945:64139" placeholder="insert into ..." />
-            <marker date="1442933669877" expanded="true" signature="64469:64481" placeholder="insert into ..." />
-            <marker date="1442933669877" expanded="true" signature="64469:64679" placeholder="insert into ..." />
-            <marker date="1442933669877" expanded="true" signature="64893:64905" placeholder="insert into ..." />
-            <marker date="1442933669877" expanded="true" signature="64893:65103" placeholder="insert into ..." />
-            <marker date="1442933669877" expanded="true" signature="65431:65625" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="65845:66039" placeholder="INSERT INTO ..." />
-            <marker date="1442933669877" expanded="true" signature="66263:66457" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="583:970" placeholder="..." />
+            <marker date="1443126596891" expanded="true" signature="589:959" placeholder="..." />
+            <marker date="1443126596891" expanded="true" signature="599:739" placeholder="..." />
+            <marker date="1443126596891" expanded="false" signature="612:625" placeholder="..." />
+            <marker date="1443126596891" expanded="false" signature="781:831" placeholder="..." />
+            <marker date="1443126596891" expanded="false" signature="868:918" placeholder="..." />
+            <marker date="1443126596891" expanded="true" signature="1977:2375" placeholder="..." />
+            <marker date="1443126596891" expanded="true" signature="1983:2364" placeholder="..." />
+            <marker date="1443126596891" expanded="true" signature="1993:2133" placeholder="..." />
+            <marker date="1443126596891" expanded="false" signature="2006:2019" placeholder="..." />
+            <marker date="1443126596891" expanded="false" signature="2175:2225" placeholder="..." />
+            <marker date="1443126596891" expanded="false" signature="2273:2323" placeholder="..." />
+            <marker date="1443126596891" expanded="true" signature="2946:3002" placeholder="select * fro..tarefasDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="3131:3246" placeholder="insert into ..." />
+            <marker date="1443126596891" expanded="true" signature="3308:3398" placeholder="update [MARK..." />
+            <marker date="1443126596891" expanded="true" signature="3672:3775" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="3975:4098" placeholder="update [MARK..." />
+            <marker date="1443126596891" expanded="true" signature="4145:4235" placeholder="update [MARK..." />
+            <marker date="1443126596891" expanded="true" signature="4333:4439" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="4762:4996" placeholder="insert into ..." />
+            <marker date="1443126596891" expanded="true" signature="5071:5174" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="5676:5854" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="5928:6038" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="6457:6559" placeholder="delete from ..." />
+            <marker date="1443126596891" expanded="true" signature="6633:6766" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="7263:7422" placeholder="insert into ..." />
+            <marker date="1443126596891" expanded="true" signature="7505:7619" placeholder="select idCom..." />
+            <marker date="1443126596891" expanded="true" signature="7776:7901" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="8846:8950" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="9132:9244" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="9321:9380" placeholder="select * fro..usuariosDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="9539:9635" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="9692:9876" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="10072:10238" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="10382:10534" placeholder="select * FRO..." />
+            <marker date="1443126596891" expanded="true" signature="11795:11888" placeholder="update [MARK..." />
+            <marker date="1443126596891" expanded="true" signature="11964:12077" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="12725:12804" placeholder="select * fro..." />
+            <marker date="1443126596891" expanded="true" signature="14696:14735" placeholder="select * fro..lojasDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="14804:15053" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="15133:15192" placeholder="select * fro..usuariosDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="15395:15455" placeholder="select * fro..usuariosDMTRIX..." />
+            <marker date="1443126596891" expanded="false" signature="16304:16413" placeholder="..." />
+            <marker date="1443126596891" expanded="false" signature="16536:16619" placeholder="..." />
+            <marker date="1443126596891" expanded="false" signature="16711:16814" placeholder="..." />
+            <marker date="1443126596891" expanded="true" signature="16873:16971" placeholder="SELECT idUsu..usuariosDMTRIX..." />
+            <marker date="1443126596891" expanded="false" signature="17573:17692" placeholder="..." />
+            <marker date="1443126596891" expanded="true" signature="18156:18231" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="18992:19241" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="19321:19380" placeholder="select * fro..usuariosDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="19579:19639" placeholder="select * fro..usuariosDMTRIX..." />
+            <marker date="1443126596891" expanded="false" signature="20483:20592" placeholder="..." />
+            <marker date="1443126596891" expanded="false" signature="20715:20798" placeholder="..." />
+            <marker date="1443126596891" expanded="false" signature="20890:20993" placeholder="..." />
+            <marker date="1443126596891" expanded="true" signature="21052:21150" placeholder="SELECT idUsu..usuariosDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="21581:21649" placeholder="SELECT * FRO..." />
+            <marker date="1443126596891" expanded="false" signature="21981:22100" placeholder="..." />
+            <marker date="1443126596891" expanded="true" signature="22564:22642" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="23235:23325" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="23389:23535" placeholder="select * fro..." />
+            <marker date="1443126596891" expanded="true" signature="23660:23760" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="23924:24004" placeholder="select * fro..." />
+            <marker date="1443126596891" expanded="true" signature="24983:25058" placeholder="select * fro..." />
+            <marker date="1443126596891" expanded="true" signature="25190:25257" placeholder="select * fro..ControleAprovacoesDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="25384:25477" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="25603:25682" placeholder="select * fro..." />
+            <marker date="1443126596891" expanded="true" signature="26132:26240" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="26295:26462" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="26517:26654" placeholder="insert into ..." />
+            <marker date="1443126596891" expanded="true" signature="27186:27279" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="27399:27519" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="28103:28196" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="28244:28399" placeholder="insert into ..." />
+            <marker date="1443126596891" expanded="true" signature="28510:28631" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="29031:29124" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="29171:29331" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="29418:29538" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="29617:29732" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="30100:30193" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="30240:30408" placeholder="insert into ..." />
+            <marker date="1443126596891" expanded="true" signature="30519:30635" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="31438:31508" placeholder="update Pedid..." />
+            <marker date="1443126596891" expanded="true" signature="31582:31714" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="32249:32414" placeholder="update Pedid..." />
+            <marker date="1443126596891" expanded="true" signature="32485:32564" placeholder="select * fro..." />
+            <marker date="1443126596891" expanded="true" signature="32910:32969" placeholder="select * fro..PedidoDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="33117:33242" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="33325:33378" placeholder="select * fro..PedidoDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="33737:33830" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="34130:34254" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="34364:34503" placeholder="select * fro..." />
+            <marker date="1443126596891" expanded="true" signature="34704:34764" placeholder="select * fro..usuariosDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="34949:35002" placeholder="select * fro..PedidoDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="35934:36054" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="36596:36775" placeholder="update dbo.P..." />
+            <marker date="1443126596891" expanded="true" signature="36849:36976" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="37898:38153" placeholder="insert into ..." />
+            <marker date="1443126596891" expanded="true" signature="38607:38755" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="39221:39375" placeholder="insert into ..." />
+            <marker date="1443126596891" expanded="true" signature="39453:39569" placeholder="select idCom..." />
+            <marker date="1443126596891" expanded="true" signature="39709:39827" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="39911:40029" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="40078:40193" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="40252:40441" placeholder="select * fro..." />
+            <marker date="1443126596891" expanded="true" signature="40735:40827" placeholder="update [mark..." />
+            <marker date="1443126596891" expanded="true" signature="41043:41143" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="41250:41695" placeholder="SELECT p.aca..." />
+            <marker date="1443126596891" expanded="true" signature="41776:41855" placeholder="select * FRO..." />
+            <marker date="1443126596891" expanded="true" signature="42063:42144" placeholder="select * FRO..." />
+            <marker date="1443126596891" expanded="true" signature="43335:43402" placeholder="delete from ..." />
+            <marker date="1443126596891" expanded="true" signature="43498:43629" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="44035:44166" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="44619:44716" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="45193:45252" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="45454:45549" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="45732:45843" placeholder="select * fro..." />
+            <marker date="1443126596891" expanded="true" signature="46889:47083" placeholder="insert into ..." />
+            <marker date="1443126596891" expanded="true" signature="47146:47236" placeholder="update [MARK..." />
+            <marker date="1443126596891" expanded="true" signature="47315:47453" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="47976:48041" placeholder="SELECT usuar..usuariosDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="48448:48580" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="48776:48832" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="48974:49077" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="50506:50571" placeholder="SELECT usuar..usuariosDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="51010:51235" placeholder="UPDATE dbo.u..." />
+            <marker date="1443126596891" expanded="true" signature="51309:51438" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="52022:52084" placeholder="select * fro..usuariosDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="52555:52651" placeholder="UPDATE dbo.u..." />
+            <marker date="1443126596891" expanded="true" signature="52708:52803" placeholder="UPDATE dbo.u..." />
+            <marker date="1443126596891" expanded="true" signature="53750:53839" placeholder="UPDATE dbo.u..." />
+            <marker date="1443126596891" expanded="true" signature="54475:54580" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="55430:55611" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="55684:55784" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="56200:56314" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="56386:56484" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="57187:57340" placeholder="update dbo.m..." />
+            <marker date="1443126596891" expanded="true" signature="57395:57573" placeholder="update dbo.m..." />
+            <marker date="1443126596891" expanded="true" signature="57670:57775" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="58313:58369" placeholder="select * fro..brindesDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="58731:58843" placeholder="update dbo.b..." />
+            <marker date="1443126596891" expanded="true" signature="58905:59038" placeholder="update dbo.b..." />
+            <marker date="1443126596891" expanded="true" signature="59138:59247" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="59824:60022" placeholder="insert into ..." />
+            <marker date="1443126596891" expanded="true" signature="60116:60177" placeholder="SELECT * FRO..usuariosDMTRIX..." />
+            <marker date="1443126596891" expanded="true" signature="60246:60351" placeholder="SELECT * FRO..." />
+            <marker date="1443126596891" expanded="true" signature="60832:60926" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="61374:61562" placeholder="insert into ..." />
+            <marker date="1443126596891" expanded="true" signature="61649:61743" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="62187:62370" placeholder="update lojas..." />
+            <marker date="1443126596891" expanded="true" signature="62596:62690" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="63903:64108" placeholder="insert into ..." />
+            <marker date="1443126596891" expanded="true" signature="64328:64533" placeholder="insert into ..." />
+            <marker date="1443126596891" expanded="true" signature="64857:65051" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="65271:65465" placeholder="INSERT INTO ..." />
+            <marker date="1443126596891" expanded="true" signature="65689:65883" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>

@@ -520,6 +520,8 @@ jQuery("input[name='semrede']").click(function(){
 
 });
 
+
+
 var req;
 
 function exibirConteudo(id) {
@@ -595,9 +597,10 @@ function buscarNoticias(valor) {
             // Abaixo colocamos a(s) resposta(s) na div resultado
             document.getElementById('resultado').innerHTML = resposta2;
         }
-    }
+    };
     req.send(null);
 }
+
 
 
 // Highchart - grafico da fila 
